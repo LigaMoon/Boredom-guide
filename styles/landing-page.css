@@ -1,34 +1,81 @@
+ /*--------------------- Fonts --------------------------------------------- */
+
+ @import url("https://use.typekit.net/luk6ots.css");
+ @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap');
 
 
-
-/* Landing Page */
-html {
-    background-color: #2B3156;
-    background-image: url('../images/hero-image-desktop.png');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    z-index: 2;
-
-    position: relative;
-}
+/*---------------------- Universal style accross all pages ----------------- */
 
 body {
+    margin: 0;
+    background-color: #2B3256;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*---------------------- Landing Page -------------------------------------- */
+
+#landing-pg {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/hero-image-desktop-no.png') center center / cover no-repeat fixed;
+}
+
+#landing-pg-container {
+    text-align: center;
+    width: 80%;
     background-image: url('../images/lightning-bolts.svg');
-    z-index: 1;
-}
-
-h1 {
-    position: absolute;
-    top: -50%;
-    left: 50%;
-}
-
-button {
-    position: absolute;
+    background-position: 85% 25%;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #landing-text {
-   color: yellow; 
+    font-family: 'neon-stream', sans-serif;
+    font-size: 8rem;
+    color: #F2E871;
+    text-shadow: 10px 10px 40px #EFEAE2D6;
+    margin-bottom: 50px;
+    margin-top: 20%; 
+}
+
+
+h1#landing-text::before, h1#landing-text::after {
+    content: '';
+    height: 0.07em;
+    width: 50%;
+    background-color: #A7EBDC;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+#landing-btn {
+    background-color: #A7EBDC;
+    padding: 0.7rem 0.85rem;
+    text-decoration: none;
+    color: #2B3256;
+    font-family: 'exo',sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+#landing-btn:hover {
+    background-color: #2B3256;
+    color:#A7EBDC;
+    border: 1px solid #A7EBDC;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #landing-text {
+        font-size: 15vw;
+    }
+
+
 }
