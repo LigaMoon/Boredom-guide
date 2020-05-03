@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="31" viewBox="0 0 39 31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #a7ebdc;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Group_189" data-name="Group 189" transform="translate(-1176.5 201.5)">
+    <g id="Hamb-menu" transform="translate(1179 -199)">
+      <path id="Path_370" data-name="Path 370" class="cls-1" d="M0,0H34"/>
+      <line id="Line_6" data-name="Line 6" class="cls-1" x2="34" transform="translate(0 13)"/>
+      <path id="Path_371" data-name="Path 371" class="cls-1" d="M0,0H34" transform="translate(0 26)"/>
+    </g>
+  </g>
+</svg>

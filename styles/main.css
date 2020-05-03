@@ -66,8 +66,8 @@ h1#landing-text::before, h1#landing-text::after {
 }
 
 
-/* For desktop/iPad screens (992px and bigger) */
-@media screen and (min-width:992px) {
+/* For desktop/iPad screens (768px and bigger) */
+@media screen and (min-width:768px) {
     #landing-text {
         font-size: 100px;
     }
@@ -76,3 +76,91 @@ h1#landing-text::before, h1#landing-text::after {
         background: url('../images/hero-image-desktop2.png') center center / cover no-repeat fixed;
     }
 }
+
+
+/*---------------------- Header ----------------------------------------- */
+
+.navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Setting navbar color */
+nav.navbar-bg {
+    background-color: #2B3256;
+}
+/* Styling logo */
+#brand-word {
+    font-family: 'neon-stream',sans-serif;
+    font-size: 30px;
+    color: #A7EBDC;    
+    text-decoration: none;
+}
+/* Using Bootstrap id and flexbox to align items right */
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-left: 40px;
+    font-family: 'exo',sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #A7EBDC;
+    border-bottom: 0.5px solid #A7EBDC;
+    padding: 10px 0;
+
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
+
+/* Hover effects, classes taken to re-write Bootstrap hover effect */
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 0.5px solid #A7EBDC;
+    color: #A7EBDC;
+    transform: scale(1.1);
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../images/hamburger.svg');
+}
+/* To counteract inline default padding of 40px */
+ul {
+    padding-right:40px;
+}
+
+ul.navbar-nav {
+    text-align: center;
+    justify-content: center;
+}
+
+li .nav-item #active-link {
+    font-size: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .navbar {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: 8px 0 4px;
+        border-bottom: 0.5px solid #2B3256;
+    }
+
+ 
+}
+
+    
