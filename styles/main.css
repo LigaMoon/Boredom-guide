@@ -11,6 +11,15 @@ body {
     background-color: #2B3256;
     font-family: sans-serif;
     font-size: 16px;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    padding: 65px 0;
 }
 
 /*---------------------- Landing Page -------------------------------------- */
@@ -167,6 +176,93 @@ ul.navbar-nav {
         font-weight: 400;
         border-bottom: 1px solid #A7EBDC;
     }
+    ul {
+        padding-right: 0;
+    }
 }
 
-    
+/*---------------------- Footer ----------------------------------------- */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-nav {
+    background-color: #2B3256;
+    padding: 8px 30px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #A7EBDC;
+    font-weight: 300;
+    padding: 8px 0 0;
+    border-bottom: 0.5px solid #2B3256;
+    font-family: 'Exo', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #A7EBDC;
+    text-decoration: none;
+    transform: scale(1.2);
+
+}
+/* adding styling to the text links */
+.footer-link:nth-of-type(1):hover, .footer-link:nth-of-type(2):hover {
+    border-bottom-color: #A7EBDC;
+    transform: scale(1.1);
+}
+
+.footer-item-social {
+    padding: 4px 0 0;
+}
+
+.footer-item-social i {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #A7EBDC;
+    text-align: center;
+    color: #2B3256;
+    padding-top: 5px;
+}
+/* Styling Git icon separately as it is already shaped as a cirlce */
+footer nav a:nth-of-type(4) i {
+    font-size: 31px;
+    text-align: center;
+    color: #A7EBDC;
+    padding-top: 0;
+    background-color: #2B3256;
+}
+
+/* desktop styles */
+@media screen and (min-width:768px) {
+    #footer-nav {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #2B3256;
+        padding: 8px 50px 14px;
+    }
+
+    .footer-link {
+        margin: 0 70px;
+    }
+
+    .footer-item-social {
+        margin: 0 15px;
+    }
+}
