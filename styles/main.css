@@ -145,10 +145,12 @@ ul.navbar-nav {
     justify-content: center;
 }
 
-li .nav-item #active-link {
-    font-size: 40px;
-}
 
+#active-page-link {
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Desktop view styling */
 @media screen and (min-width:768px) {
     .navbar {
         padding-left: 50px;
@@ -160,7 +162,11 @@ li .nav-item #active-link {
         border-bottom: 0.5px solid #2B3256;
     }
 
- 
+    #active-page-link {
+        font-size: 17px;
+        font-weight: 400;
+        border-bottom: 1px solid #A7EBDC;
+    }
 }
 
     
