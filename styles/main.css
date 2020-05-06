@@ -221,7 +221,7 @@ footer {
 
 }
 /* adding styling to the text links */
-.footer-link:nth-of-type(1):hover, .footer-link:nth-of-type(2):hover {
+.footer-item-nav:hover {
     border-bottom-color: #A7EBDC;
     transform: scale(1.1);
 }
@@ -249,6 +249,79 @@ footer nav a:nth-of-type(4) i {
     background-color: #2B3256;
 }
 
+/* styling 'about' and 'contact' collapsable sections */
+
+#about {
+    background-color: #2B3256;
+
+}
+
+div.card.card-body {
+    background-color: #2B3256;
+    color: #A7EBDC;
+    font-family: 'Exo',sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.arrow-toggle {
+    color: #C76D6D;
+    transform: scale(2.5,1.5)
+}
+
+.arrow-toggle:hover {
+    color: #C76D6D;
+}
+
+#form {
+    margin: 0 auto;
+}
+
+input, textarea {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: #E3F1F2;
+
+}
+
+input {
+    height: 40px;
+}
+
+#contact-text {
+    font-size: 20px;
+    width: 70%;
+    line-height: 50px;
+    margin: 5px auto;
+}
+
+label {
+    font-size: 17px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+#submit-button {
+    color:#A7EBDC;
+    border: 0.5px solid #A7EBDC;
+    border-radius: 5px;
+    background-color: #2B3256;
+    margin: 15px auto;
+    display: block;
+
+}
+
+#submit-button:hover {
+    color: #2B3256;
+    background-color: #A7EBDC;
+}
+
 /* desktop styles */
 @media screen and (min-width:768px) {
     #footer-nav {
@@ -265,4 +338,13 @@ footer nav a:nth-of-type(4) i {
     .footer-item-social {
         margin: 0 15px;
     }
+
+    div.card.card-body {
+        font-size: 20px;
+        width: 60%;
+    }
+
+    .arrow-toggle {
+    display: none;
+}
 }
