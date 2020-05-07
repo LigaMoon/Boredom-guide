@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-color: #2B3256;
+    background-color: #E3F1F2;
     font-family: sans-serif;
     font-size: 16px;
     position: relative;
@@ -20,6 +20,14 @@ p {
 
 main {
     padding: 65px 0;
+}
+
+.page-banner {
+    padding: 65px 0;
+}
+
+.new-line {
+    margin-top: 30px;
 }
 
 /*---------------------- Landing Page -------------------------------------- */
@@ -296,7 +304,6 @@ input {
 
 #contact-text {
     font-size: 20px;
-    width: 70%;
     line-height: 50px;
     margin: 5px auto;
 }
@@ -305,6 +312,7 @@ label {
     font-size: 17px;
     text-align: left;
     margin-top: 5px;
+    display: block;
 }
 
 #submit-button {
@@ -314,6 +322,7 @@ label {
     background-color: #2B3256;
     margin: 15px auto;
     display: block;
+    padding: 5px;
 
 }
 
@@ -340,11 +349,78 @@ label {
     }
 
     div.card.card-body {
+        width: 100%;
         font-size: 20px;
-        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #contact-text {
+        width: auto;
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    #form {
+        border: 1px solid #A7EBDC;
+        padding: 10px 100px 5px;
     }
 
     .arrow-toggle {
-    display: none;
+        display: none;
+    }
 }
+
+
+/*---------------------- Home Page ----------------------------------------- */
+
+.home-page-banner {
+    /* height: 100vh; */
+    margin-top: 20px;
+    color: #A7EBDC;
+    background-image: url('../images/banner-bkg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+}
+
+.home-page-banner-txt {
+    text-align: center;
+    margin: 0 auto 50px;
+    padding: 0 10%;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
+
+.home-page-banner-txt h1 {
+    font-family: 'NeonStream', sans-serif;
+    font-size: 70px;
+}
+
+.home-page-banner-txt span {
+    text-decoration: underline;
+}
+
+.home-page-banner-img img{
+    width: 100vw;
+    margin: 50px 0;
+}
+
+ @media screen and (min-width:992px)   {
+    .home-page-banner-txt {
+        font-size: 25px;
+    }
+ }  
+
+@media screen and (min-width:768px) {
+    .home-page-banner {
+        margin-top: 50px;
+        background-image: url('../images/banner-bkg-desktop.png');
+    }
+    
+    .home-page-banner-img img{
+        width: 50vw;
+    }
 }
