@@ -1,7 +1,8 @@
  /*--------------------- Fonts --------------------------------------------- */
 
  @import url("https://use.typekit.net/luk6ots.css");
- @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500&family=PT+Serif:wght@400;700&display=swap');
+
 
 
 /*---------------------- Universal style accross all pages ----------------- */
@@ -377,6 +378,7 @@ label {
 
 /*---------------------- Home Page ----------------------------------------- */
 
+/* Home Page Banner Section */
 .home-page-banner {
     /* height: 100vh; */
     margin-top: 20px;
@@ -423,4 +425,45 @@ label {
     .home-page-banner-img img{
         width: 50vw;
     }
+}
+
+/* Home Page bottom article sections */
+
+.home-page-section {
+    margin: 10px auto 0;
+    color: #2B3256;
+}
+
+.home-page-left-bubble {
+
+    height: 85vh;
+    background-image: url('../images/speech-shape-left.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -3%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.home-page-left-bubble h2 {
+    font-family: 'PT Serif',serif;
+    font-size: 130px;
+    font-weight: 700;
+
+}
+
+/* .home-page-left-bubble p {
+    height: 100%;
+
+} */
+
+
+ @media screen and (min-width:992px)   {
+
+ }  
+
+@media screen and (min-width:768px) {
+
 }
