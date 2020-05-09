@@ -6,14 +6,18 @@
 
 
 /*---------------------- Universal style accross all pages ----------------- */
+html {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0;
+    padding: 0;
     background-color: #E3F1F2;
     font-family: sans-serif;
     font-size: 16px;
     position: relative;
-    width: 100vw;
 }
 
 p {
@@ -199,6 +203,16 @@ footer {
     width: 100%;
 }
 
+/* Styling footers that have different backgrounds */
+.footer-decorated {
+    padding-top: 100px;
+    background-image: url('../images/footer-bg-mobile2.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    background-position: 0;
+
+}
+
 #footer-nav {
     background-color: #2B3256;
     padding: 8px 30px 10px;
@@ -335,6 +349,13 @@ label {
 
 /* desktop styles */
 @media screen and (min-width:768px) {
+    .footer-decorated {
+        padding-top: 100px;
+        background-image: url('../images/footer-bkg-desktop.png');
+        /* background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0; */
+    }
     #footer-nav {
         display: flex;
         justify-content: flex-end;
@@ -427,6 +448,7 @@ div.col.home-page-banner-img {
         margin-top: 50px;
         padding-bottom: 65px;
         background-image: url('../images/banner-bkg-desktop.png');
+        background-size: 102% 100%;
     }
     
     .home-page-banner-img img{
@@ -436,7 +458,7 @@ div.col.home-page-banner-img {
 
 /* Home Page bottom article sections */
 .home-page-section {
-    margin: 10px auto 0;
+    margin: 10px auto 100px;
     color: #2B3256;
 }
 
@@ -448,16 +470,21 @@ div.col.home-page-banner-img {
 
  .bubble-left {
     background-image: url('../images/speech-shape-left.svg');
-    left: -3%;
+    background-position: left 0%;
+    padding-left: 0;
  }
 
 .bubble-right {
     background-image: url('../images/speech-shape-right.svg');
-    right: -3%;
+    background-position: right 0%;
  }
 
-div.home-page-bubble:nth-of-type(1) {
+#home-page-section-first {
     margin-top: -60px;
+}
+
+#home-page-section-last {
+    margin-bottom: 200px;
 }
 
 .home-page-bubble h2 {
@@ -465,17 +492,28 @@ div.home-page-bubble:nth-of-type(1) {
     font-size: 100px;
     font-weight: 700;
     position: absolute;
-    top: 120px;
     margin: auto;
 }
 
 .bubble-left h2 {
-    left: 4vw;
+    left: 1vw;
+    top: 130px;
 }
 
 .bubble-right h2 {
-    right: 11vw;
+    right: 1vw;
 }
+
+h2.heading-entertained {
+    font-size: 55px;
+    top: 160px;
+}
+
+h2.heading-informed {
+    font-size: 70px;
+    top: 150px;
+}
+
 
 .home-page-article {
     font-size: 25px;
@@ -502,7 +540,7 @@ div.home-page-bubble:nth-of-type(1) {
     color: #C76D6D;
     margin: 0 10px;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2.5;
     vertical-align: middle; 
     display: inline-block;
@@ -520,6 +558,10 @@ div.home-page-bubble:nth-of-type(1) {
     .article-left {
         padding-left: 25px;
     }
+
+    .home-page-section{
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width:992px)   {
@@ -533,6 +575,15 @@ div.home-page-bubble:nth-of-type(1) {
     .home-page-article {
         font-size: 30px;
     }
+    h2.heading-entertained {
+        font-size: 75px;
+        top: 200px;
+    }
+    h2.heading-informed {
+        font-size: 90px;
+        top: 190px;
+    }
+
 } 
 
 @media screen and (min-width:1200px)   {
@@ -546,4 +597,12 @@ div.home-page-bubble:nth-of-type(1) {
     .home-page-article {
         font-size: 33px;
     }
+    h2.heading-entertained {
+        font-size: 90px;
+        top: 250px;
+    }
+    h2.heading-informed {
+        font-size: 110px;
+        top: 230px;
+    }    
 } 
