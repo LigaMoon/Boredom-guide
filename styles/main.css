@@ -13,6 +13,7 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     position: relative;
+    width: 100vw;
 }
 
 p {
@@ -24,7 +25,7 @@ main {
 }
 
 .page-banner {
-    padding: 65px 0;
+    padding: 65px 0 0;
 }
 
 .new-line {
@@ -395,6 +396,11 @@ label {
     font-family: 'Exo', sans-serif;
     font-size: 20px;
 }
+/* 
+Removing default padding associated with col */
+div.col.home-page-banner-img {
+    padding: 0;
+}
 
 .home-page-banner-txt h1 {
     font-family: 'NeonStream', sans-serif;
@@ -419,6 +425,7 @@ label {
 @media screen and (min-width:768px) {
     .home-page-banner {
         margin-top: 50px;
+        padding-bottom: 65px;
         background-image: url('../images/banner-bkg-desktop.png');
     }
     
@@ -428,42 +435,115 @@ label {
 }
 
 /* Home Page bottom article sections */
-
 .home-page-section {
     margin: 10px auto 0;
     color: #2B3256;
 }
 
-.home-page-left-bubble {
-
-    height: 85vh;
-    background-image: url('../images/speech-shape-left.svg');
+.home-page-bubble {
+    height: 400px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+ .bubble-left {
+    background-image: url('../images/speech-shape-left.svg');
     left: -3%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+ }
 
+.bubble-right {
+    background-image: url('../images/speech-shape-right.svg');
+    right: -3%;
+ }
+
+div.home-page-bubble:nth-of-type(1) {
+    margin-top: -60px;
 }
 
-.home-page-left-bubble h2 {
+.home-page-bubble h2 {
     font-family: 'PT Serif',serif;
-    font-size: 130px;
+    font-size: 100px;
     font-weight: 700;
-
+    position: absolute;
+    top: 120px;
+    margin: auto;
 }
 
-/* .home-page-left-bubble p {
-    height: 100%;
+.bubble-left h2 {
+    left: 4vw;
+}
 
-} */
+.bubble-right h2 {
+    right: 11vw;
+}
 
+.home-page-article {
+    font-size: 25px;
+    font-family: 'Exo',sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
 
- @media screen and (min-width:992px)   {
+.home-page-article button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #2B3256;
+    border-radius: 5px;
+    border: none;
+}
 
- }  
+.home-page-article button:hover {
+    background-color: #C76D6D;
+    color: #2B3256;
+}
+
+.home-page-article button a {
+    color: #C76D6D;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 2.5;
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+.home-page-article button a:hover {
+    color: #2B3256;
+    text-decoration: none;
+}
 
 @media screen and (min-width:768px) {
-
+    .article-right {
+        padding-right: 25px;
+    }
+    .article-left {
+        padding-left: 25px;
+    }
 }
+
+@media screen and (min-width:992px)   {
+    .home-page-bubble {
+        height: 500px;
+    }
+    .home-page-bubble h2 {
+        font-size: 130px;
+        top: 170px;
+    }
+    .home-page-article {
+        font-size: 30px;
+    }
+} 
+
+@media screen and (min-width:1200px)   {
+    .home-page-bubble {
+        height: 600px;
+    }
+    .home-page-bubble h2 {
+        font-size: 150px;
+        top: 200px;
+    }
+    .home-page-article {
+        font-size: 33px;
+    }
+} 
