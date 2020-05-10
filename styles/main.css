@@ -200,8 +200,6 @@ ul.navbar-nav {
 /*---------------------- Footer ----------------------------------------- */
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -445,7 +443,39 @@ label {
 
 }
 
+/*---------------------- Top Section ----------------------------------------- */
 
+.top-section {
+    background-image: url('../images/page-banner-deco-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    margin-top: -40px;
+}
+
+.top-section h2 {
+    padding-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'PT Serif',serif;
+    font-size: 45px;
+    color:#C76D6D;
+    font-weight: 700;
+}
+
+.top-section p {
+    padding: 0 5%;
+    font-family: 'Exo',sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:992px) {
+    .top-section {
+        margin-top: -80px;
+    }
+}
 /*---------------------- Home Page ----------------------------------------- */
 
 /* Home Page Banner Section */
@@ -651,3 +681,49 @@ h2.heading-informed {
         top: 230px;
     }    
 } 
+
+/*---------------------- Happy Page ----------------------------------------- */
+
+/* Top section with cute animal pictures */
+div#carouselExampleIndicators.carousel.slide {
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* a.carousel-control-prev {
+    left: -15%;
+}
+
+a.carousel-control-next {
+    right: -15%;
+} */
+
+span.carousel-control-prev-icon {
+    background-image: url('../images/happy/icon-prev.png');
+    height: 40px;
+}
+
+span.carousel-control-next-icon {
+    background-image: url('../images/happy/icon-next.png');
+    height: 40px;
+}
+
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:#C76D6D;
+    border: 0.5px solid #E3F1F2;
+}
+
+@media screen and (min-width:576px) {
+    div#carouselExampleIndicators.carousel.slide {
+        width: 50%;
+    }
+    a.carousel-control-prev {
+        left: -15%;
+    }
+    a.carousel-control-next {
+        right: -15%;
+    }
+}
