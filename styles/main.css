@@ -36,6 +36,11 @@ main {
     margin-top: 30px;
 }
 
+.asterisk {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
 /*---------------------- Landing Page -------------------------------------- */
 
 #landing-pg {
@@ -205,11 +210,11 @@ footer {
 
 /* Styling footers that have different backgrounds */
 .footer-decorated {
-    padding-top: 100px;
+    padding-top: 200px;
     background-image: url('../images/footer-bg-mobile2.png');
     background-repeat: no-repeat;
-    background-size: 100vw 100%;
-    background-position: 0;
+    background-size: 102% 30%;
+    background-position: bottom 20px left 0;
 
 }
 
@@ -274,12 +279,6 @@ footer nav a:nth-of-type(4) i {
 }
 
 /* styling 'about' and 'contact' collapsable sections */
-
-#about {
-    background-color: #2B3256;
-
-}
-
 div.card.card-body {
     background-color: #2B3256;
     color: #A7EBDC;
@@ -290,7 +289,6 @@ div.card.card-body {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding: 0;
 }
 
 .arrow-toggle {
@@ -302,8 +300,17 @@ div.card.card-body {
     color: #C76D6D;
 }
 
+#about {
+    background-color: #2B3256;
+    padding: 5% 10%;
+}
+
+#contact {
+    background-color: #2B3256;
+}
+
 #form {
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 input, textarea {
@@ -322,6 +329,7 @@ input {
     font-size: 20px;
     line-height: 50px;
     margin: 5px auto;
+    padding: 10px;
 }
 
 label {
@@ -350,11 +358,10 @@ label {
 /* desktop styles */
 @media screen and (min-width:768px) {
     .footer-decorated {
-        padding-top: 100px;
+        padding-top: 200px;
         background-image: url('../images/footer-bkg-desktop.png');
-        /* background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 0; */
+        background-position: bottom 50px left 0;
+        background-size: 102% 40%;
     }
     #footer-nav {
         display: flex;
@@ -362,15 +369,12 @@ label {
         background-color: #2B3256;
         padding: 8px 50px 14px;
     }
-
     .footer-link {
         margin: 0 70px;
     }
-
     .footer-item-social {
         margin: 0 15px;
     }
-
     div.card.card-body {
         width: 100%;
         font-size: 20px;
@@ -378,23 +382,28 @@ label {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding: 10px;
 
     }
-
     #contact-text {
         width: auto;
         font-size: 30px;
         line-height: 70px;
     }
-
     #form {
         border: 1px solid #A7EBDC;
-        padding: 10px 100px 5px;
+        padding: 10px 50px 5px;
     }
-
     .arrow-toggle {
         display: none;
     }
+}
+
+@media screen and (min-width:992px) {
+    #form {
+        border: 1px solid #A7EBDC;
+        padding: 10px 100px 5px;
+    }    
 }
 
 
