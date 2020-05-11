@@ -105,9 +105,14 @@ h1#landing-text::before, h1#landing-text::after {
 
 /*---------------------- Header ----------------------------------------- */
 
+header{
+    width: 100vw;
+}
+
 .navbar {
     padding-left: 30px;
     padding-right: 30px;
+    width: 100vw;
 }
 /* Setting navbar color */
 nav.navbar-bg {
@@ -453,7 +458,7 @@ label {
     margin-top: -40px;
 }
 
-.top-section h2, .bottom-section h2 {
+.section-heading {
     margin-bottom: 40px;
     text-align: center;
     font-family: 'PT Serif',serif;
@@ -461,16 +466,16 @@ label {
     font-weight: 700;
 }
 
-.top-section h2 {
+.top-section .section-heading {
     padding-top: 100px;
     color:#C76D6D;
 }
 
-.bottom-section h2 {
+.bottom-section .section-heading {
     padding-top: 50px;
 }
 
-.top-section p, .bottom-section p {
+.section-description {
     padding: 0 5%;
     font-family: 'Exo',sans-serif;
     font-size: 30px;
@@ -691,6 +696,10 @@ h2.heading-informed {
 
 /*---------------------- Happy Page ----------------------------------------- */
 
+.happy-page-top-section {
+    padding-bottom: 100px;
+}
+
 /* Top section with cute animal pictures */
 div#carouselExampleIndicators.carousel.slide {
     width: 100%;
@@ -717,7 +726,7 @@ span.carousel-control-next-icon {
 
 @media screen and (min-width:576px) {
     div#carouselExampleIndicators.carousel.slide {
-        width: 80%;
+        width: 70%;
     }
     a.carousel-control-prev {
         left: -15%;
@@ -736,18 +745,75 @@ span.carousel-control-next-icon {
 /* Bottom section, good news stories */
 
 .happy-page-bottom-section {
-    background-color:#2B3256;
-    padding: 50px;
+    padding: 80px 0px 0px;
+    background-image: url('../images/footer-bkg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 101% 2%;
+    background-position: top center;
+}
+
+.happy-page-bottom-section div.row {
+       background-color:#2B3256; 
+       width: 100%;
+       background-clip: border-box;
+       margin-right: 0;
+       margin-left:0;
+       margin-bottom: -2px;
+       padding: 0 30px 0;
+}
+
+.happy-page-bottom-section .asterisk {
+    text-align: center;
+    color:#A7EBDC;
+}
+
+.happy-page-bottom-section .section-heading, .happy-page-bottom-section .section-description {
+    color:#A7EBDC;
 }
 
 .happy-page-bottom-section div.card {
     margin: 10px auto;
-    width: 100%;
+    border: none;
+}
+
+.happy-page-bottom-section div.card-body {
+    background-color:#E3F1F2;
 }
 
 .happy-page-bottom-section div.good-news-item {
-    padding: 50px 50px;
-
+    padding: 50px 0px;
 }
 
+.card-heading {
+ text-align: center;
+ font-family: 'PT Serif',serif;
+ font-size: 20px;
+}
 
+.bottom-section p.card-text {
+    font-family: 'Exo',sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media screen and (min-width:576px) {
+        .happy-page-bottom-section {
+            padding: 100px 0px 0px;
+            background-image: url('../images/footer-bkg-desktop.png');
+            background-size: 101% 3%;
+        }
+}
+
+@media screen and (min-width:768px) {
+        .happy-page-bottom-section {
+            padding: 100px 0px 0px;
+            background-size: 101% 5%;
+        }
+}
+
+@media screen and (min-width:992px) {
+    .happy-page-bottom-section {
+        padding: 150px 0px 0px;
+        background-size: 101% 10%;
+    }
+}
