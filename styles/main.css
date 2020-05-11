@@ -434,10 +434,31 @@ label {
     background-image: url('../images/happy-mobile.png');
 }
 
+.entertained-banner {
+       background-image: url('../images/entertained-mobile.png'); 
+}
+
+.active-banner {
+       background-image: url('../images/active-mobile.png'); 
+}
+
+.informed-banner {
+       background-image: url('../images/informed-mobile.png'); 
+}
+
 @media screen and (min-width:768px) {
     .happy-banner {
-    background-image: url('../images/happy-desktop.png');
-  }
+      background-image: url('../images/happy-desktop.png');
+    }
+    .entertained-banner {
+        background-image: url('../images/entertained-desktop.png'); 
+    }
+    .active-banner {
+        background-image: url('../images/active-desktop.png'); 
+    } 
+    .informed-banner {
+        background-image: url('../images/informed-desktop.png'); 
+    }       
     .picture-heading-banner {
         height: 35vw;
         background-position: top 60px left 0px;
