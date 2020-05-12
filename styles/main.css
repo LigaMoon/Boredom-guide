@@ -36,6 +36,7 @@ p {
 .asterisk {
     font-size: 20px!important;
     margin-top: 30px;
+    text-align: center;
 }
 
 /*---------------------- Landing Page -------------------------------------- */
@@ -426,7 +427,7 @@ label {
 
 .banner-heading {
     font-family: 'NeonStream', sans-serif;
-    font-size: 70px;
+    font-size: 10vw;
     color:#2B3256;
 }
 
@@ -463,10 +464,6 @@ label {
         height: 35vw;
         background-position: top 60px left 0px;
         } 
-    .banner-heading {
-        font-size: 100px;
-    }
-
 }
 
 /*---------------------- Top and bottom sections' comon styles ----------------------------------------- */
@@ -476,7 +473,8 @@ label {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;
-    margin-top: -40px;
+    margin-top: -25px;
+    padding-bottom: 100px;
 }
 
 .section-heading {
@@ -503,6 +501,11 @@ label {
     text-align: center;
 }
 
+@media screen and (min-width:768px) {
+    .top-section {
+        margin-top: -40px;
+    }
+}
 
 @media screen and (min-width:992px) {
     .top-section {
@@ -717,10 +720,6 @@ h2.heading-informed {
 
 /*---------------------- Happy Page ----------------------------------------- */
 
-.happy-page-top-section {
-    padding-bottom: 100px;
-}
-
 /* Top section with cute animal pictures */
 div#carouselExampleIndicators.carousel.slide {
     width: 100%;
@@ -784,7 +783,6 @@ span.carousel-control-next-icon {
 }
 
 .happy-page-bottom-section .asterisk {
-    text-align: center;
     color:#A7EBDC;
 }
 
@@ -837,4 +835,12 @@ span.carousel-control-next-icon {
         padding: 150px 0px 0px;
         background-size: 101% 10%;
     }
+}
+
+/*---------------------- Entertained Page ----------------------------------------- */
+
+
+
+
+@media screen and (min-width:992px) {
 }
