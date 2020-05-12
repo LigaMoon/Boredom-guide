@@ -37,6 +37,7 @@ p {
     font-size: 20px!important;
     margin-top: 30px;
     text-align: center;
+    font-family: 'Exo', sans-serif;
 }
 
 /*---------------------- Landing Page -------------------------------------- */
@@ -839,8 +840,76 @@ span.carousel-control-next-icon {
 
 /*---------------------- Entertained Page ----------------------------------------- */
 
+/* common article styles */
+.entertained-page-top-section .container-fluid {
+    padding:0;
+}
+
+.entertained-page-top-section .section-description {
+    margin-bottom: 150px;
+}
+
+.entertained-page-article {
+    margin: 100px 0;
+}
+
+.entertained-page-article img {
+    width: 100%;
+    padding: 20px;
+    min-width: 260px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+
+.entertained-article-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.entertained-article-image {
+    text-align: center;
+}
+
+.entertained-page-article h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}
+
+.entertained-article-text p {
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    padding: 0 2%;
+}
+
+
+
+/* individual article styles */
+#article-geocaching {
+    color:#C76D6D;
+    /* background-color:#C7C7C7; */
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin-top: -100px;
+    background-image: url('../images/entertained/bg-geocaching-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 101% 90%;
+
+}
+
 
 
 
 @media screen and (min-width:992px) {
+
+.entertained-article-text p {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    padding: 0 7%;
+}
+
 }
