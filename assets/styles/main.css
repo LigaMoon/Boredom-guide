@@ -34,10 +34,18 @@ p {
 }
 
 .asterisk {
-    font-size: 20px!important;
+    font-size: 15px!important;
     margin-top: 30px;
     text-align: center;
     font-family: 'Exo', sans-serif;
+}
+
+
+@media screen and (min-width:768px) {
+    .asterisk {
+    font-size: 20px!important;
+    }
+
 }
 
 /*---------------------- Landing Page -------------------------------------- */
@@ -81,7 +89,7 @@ h1#landing-text::before, h1#landing-text::after {
     padding: 10px 15px;
     text-decoration: none;
     color: #2B3256;
-    font-family: 'exo',sans-serif;
+    font-family: 'Exo',sans-serif;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -134,7 +142,7 @@ nav.navbar-bg {
 
 .nav-item {
     margin-left: 40px;
-    font-family: 'exo',sans-serif;
+    font-family: 'Exo',sans-serif;
     font-size: 17px;
     font-weight: 300;
     text-transform: uppercase;
@@ -213,6 +221,7 @@ footer {
 /* Styling footers that have different backgrounds */
 .footer-decorated {
     padding-top: 200px;
+    margin-top: -200px;
     background-image: url('../images/footer-bg-mobile2.png');
     background-repeat: no-repeat;
     background-size: 102% 30%;
@@ -427,39 +436,39 @@ label {
 }
 
 .banner-heading {
-    font-family: 'NeonStream', sans-serif;
+    font-family: 'neon-stream', sans-serif;
     font-size: 10vw;
     color:#2B3256;
 }
 
 .happy-banner {
-    background-image: url('../images/happy-mobile.png');
+    background-image: url('../images/head-banners/happy-mobile.png');
 }
 
 .entertained-banner {
-       background-image: url('../images/entertained-mobile.png'); 
+       background-image: url('../images/head-banners/entertained-mobile.png'); 
 }
 
 .active-banner {
-       background-image: url('../images/active-mobile.png'); 
+       background-image: url('../images/head-banners/active-mobile.png'); 
 }
 
 .informed-banner {
-       background-image: url('../images/informed-mobile.png'); 
+       background-image: url('../images/head-banners/informed-mobile.png'); 
 }
 
 @media screen and (min-width:768px) {
     .happy-banner {
-      background-image: url('../images/happy-desktop.png');
+      background-image: url('../images/head-banners/happy-desktop.png');
     }
     .entertained-banner {
-        background-image: url('../images/entertained-desktop.png'); 
+        background-image: url('../images/head-banners/entertained-desktop.png'); 
     }
     .active-banner {
-        background-image: url('../images/active-desktop.png'); 
+        background-image: url('../images/head-banners/active-desktop.png'); 
     } 
     .informed-banner {
-        background-image: url('../images/informed-desktop.png'); 
+        background-image: url('../images/head-banners/informed-desktop.png'); 
     }       
     .picture-heading-banner {
         height: 35vw;
@@ -470,7 +479,7 @@ label {
 /*---------------------- Top and bottom sections' comon styles ----------------------------------------- */
 
 .top-section {
-    background-image: url('../images/page-banner-deco-desktop.png');
+    background-image: url('../images/head-banners/page-banner-deco-desktop.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: scroll;
@@ -498,13 +507,22 @@ label {
 .section-description {
     padding: 0 5%;
     font-family: 'Exo',sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+}
+
+@media screen and (min-width:576px) {
+    .section-description {
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width:768px) {
     .top-section {
         margin-top: -40px;
+    }
+    .section-description {
+        font-size: 30px;
     }
 }
 
@@ -539,7 +557,7 @@ div.col.home-page-banner-img {
 }
 
 .home-page-banner-txt h1 {
-    font-family: 'NeonStream', sans-serif;
+    font-family: 'neon-stream', sans-serif;
     font-size: 70px;
 }
 
@@ -584,13 +602,13 @@ div.col.home-page-banner-img {
 }
 
  .bubble-left {
-    background-image: url('../images/speech-shape-left.svg');
+    background-image: url('../images/home/speech-shape-left.svg');
     background-position: left 0%;
     padding-left: 0;
  }
 
 .bubble-right {
-    background-image: url('../images/speech-shape-right.svg');
+    background-image: url('../images/home/speech-shape-right.svg');
     background-position: right 0%;
  }
 
@@ -841,16 +859,19 @@ span.carousel-control-next-icon {
 /*---------------------- Entertained Page ----------------------------------------- */
 
 /* common article styles */
-.entertained-page-top-section .container-fluid {
-    padding:0;
-}
+
 
 .entertained-page-top-section .section-description {
-    margin-bottom: 150px;
+    margin-bottom:100px;
 }
 
 .entertained-page-article {
-    margin: 100px 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-top: -100px;
 }
 
 .entertained-page-article img {
@@ -890,26 +911,60 @@ span.carousel-control-next-icon {
 /* individual article styles */
 #article-geocaching {
     color:#C76D6D;
-    /* background-color:#C7C7C7; */
-    padding-top: 100px;
-    padding-bottom: 200px;
-    margin-top: -100px;
-    background-image: url('../images/entertained/bg-geocaching-desktop.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 101% 90%;
-
+    background-image: url('../images/entertained/bg-geocaching-desktop.png'),
+    linear-gradient(#E3F1F2 5%, #C7C7C7 0%);
+}
+#article-houseparty {
+    color:#2B3156;
+    background-image: url('../images/entertained/bg-houseparty-desktop.png'),
+    linear-gradient(#C7C7C7 5%, #C76D6D 0%);
+}
+#article-stargazing {
+    color:#A7EBDC;
+    background-image: url('../images/entertained/bg-stargazing-desktop.png'),
+    linear-gradient(#C76D6D 5%, #2B3156 0%);
+}
+#article-tv {
+    color:#A034B9FC;
+    background-image: url('../images/entertained/bg-tv-desktop.png'),
+    linear-gradient(#2B3156 5%, #F2E871 0%);
+}
+#article-mars {
+    color:#2B3156;
+    background-image: url('../images/entertained/bg-mars-desktop.png'),
+    linear-gradient(#F2E871 5%, #C7C7C7 0%);
+}
+#article-tiktok {
+    color:#C7C7C7;
+    background-image: url('../images/entertained/bg-tiktok-desktop.png'),
+    linear-gradient(#C7C7C7 5%, #A034B9FC 0%);
+}
+#article-skill {
+    color:#2B3156;
+    background-image: url('../images/entertained/bg-skill-desktop.png'),
+    linear-gradient(#A034B9FC 5%, #A7EBDC 0%);
 }
 
 
+@media screen and (min-width:768px) {
+    .entertained-page-article {
+        background-size: cover;
+    }
+    #article-geocaching {
+        background-image: url('../images/entertained/bg-geocaching-desktop.png'),
+        linear-gradient(#E3F1F2 10%, #C7C7C7 0%);
+    }
+    #article-houseparty {
+        background-image: url('../images/entertained/bg-houseparty-desktop.png'),
+        linear-gradient(#C7C7C7 10%, #C76D6D 0%);
+    }
 
+}
 
 @media screen and (min-width:992px) {
-
-.entertained-article-text p {
-    font-family: 'Exo', sans-serif;
-    font-size: 20px;
-    padding: 0 7%;
-}
-
+    .entertained-article-text p {
+        font-family: 'Exo', sans-serif;
+        font-size: 20px;
+        padding: 0 7%;
+    }   
 }
