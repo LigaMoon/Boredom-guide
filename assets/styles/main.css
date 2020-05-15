@@ -1054,7 +1054,7 @@ span.carousel-control-next-icon {
 .active-page-bottom-section .row {
     background-color:#2B3256;
     width: 100%;      
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 .active-page-bottom-section img {
@@ -1065,6 +1065,34 @@ span.carousel-control-next-icon {
     font-family: 'PT Serif', serif;
     color:#C76D6D;
     font-size: 40px;
+    margin-bottom: 10%;
+}
+
+.active-page-bottom-section p {
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    color:#A7EBDC;
+}
+
+.entertained-page-item {
+    padding: 15% 0;
+}
+
+.activity-list, .progress-list {
+    list-style-position: inside;
+    /* display: inline-block; */
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+    color:#A7EBDC;
+
+}
+
+.activity-list li, .progress-list li {
+    text-align: left;
+}
+
+.progress-list {
+    list-style-type: none;
 }
 
 @media screen and (min-width:576px) {
