@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
     <title>Handbook of Fun Activities</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 
     <!-- header -->
     <header>
@@ -41,13 +41,13 @@
         </nav>
     </header>
         <!-- active page banner -->
-        <section class="page-banner picture-heading-banner active-banner" >
+        <section class="flex-shrink-0 page-banner picture-heading-banner active-banner" >
             <div>
                 <h1 class="banner-heading">Active</h1>
             </div>
         </section>
         <!-- main part of the Home page -->
-        <main>
+        <main role="main" class="flex-shrink-0">
             <section class="top-section active-page-top-section">
                 <h2 class="section-heading">Move your body</h2>
                 <p class="section-description">
@@ -147,45 +147,45 @@
 
         </main>
         <!-- Footer -->
-        <footer>
-            <!-- Collapsable elements for 'About' and 'Contact' sections -->
-            <div class="collapse" id="about">
-                <div class="card card-body">
-                    <a href="#about"  class="arrow-toggle"  data-toggle="collapse" role="button" aria-expanded="true" aria-controls="about" ><i class="fas fa-chevron-down"></i></a>
-                    In a time where everything is uncertain and basic daily joys of life have become harder to come by,
-                    I have created this website to use as a guide for passing the extra time we have and find new and unique
-                    ways of entertainment. Stay safe, stay at home and explore :)
-                </div>
-            </div>
-            <div class="collapse" id="contact">
-                <div class="card card-body">
-                    <a href="#contact"  class="arrow-toggle"  data-toggle="collapse" role="button" aria-expanded="true" aria-controls="contact" ><i class="fas fa-chevron-down"></i></a>
-                    <div id="contact-text">
-                        Have something to add? <div>Get in touch!</div>
+        <footer class="footer mt-auto">
+            <div class="container mw-100 m-0 p-0">
+                <div class="collapse" id="about">
+                    <div class="card card-body">
+                        <a href="#about"  class="arrow-toggle"  data-toggle="collapse" role="button" aria-expanded="true" aria-controls="about" ><i class="fas fa-chevron-down"></i></a>
+                        In a time where everything is uncertain and basic daily joys of life have become harder to come by,
+                        I have created this website to use as a guide for passing the extra time we have and find new and unique
+                        ways of entertainment. Stay safe, stay at home and explore :)
                     </div>
-                    <form action="" id="form">
-                        <label for="name">My name is 
-                            <input type="text" id="name" name="name" size="35" minlength="2" required>
-                        </label>
-                        <label for="email">My e-mail is 
-                            <input type="email" id="email" name="email" size="35" required>
-                        </label>
-                        <label for="idea">My favourite way to fight boredom is 
-                            <textarea id="idea" name="idea" rows="6" cols="35" minlength="1" required>
-                            </textarea>
-                        </label> 
-                        <button type="submit" id="submit-button">Submit idea</button>                       
-                    </form>
                 </div>
-            </div> 
-            <!-- Navigation for the Footer -->
-            <nav id="footer-nav">
-                <a href="#about"  class="footer-link footer-item-nav"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="about">About</a>
-                <a href="#contact" class="footer-link footer-item-nav" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
-                <a href="https://www.linkedin.com/in/ligabaikova" class="footer-link footer-item-social" target="_blank"><i class="fab fa-linkedin-in" aria-label="linkedin profile"></i></a>
-                <a href="https://github.com/liigalized" class="footer-link footer-item-social" target="_blank"><i class="fab fa-github" aria-label="github profile"></i></a>
-                <a href="https://twitter.com/liiga_lized" class="footer-link footer-item-social" target="_blank"><i class="fab fa-twitter" aria-label="twitter profile"></i></a>
-            </nav>
+                <div class="collapse" id="contact">
+                    <div class="card card-body">
+                        <a href="#contact"  class="arrow-toggle"  data-toggle="collapse" role="button" aria-expanded="true" aria-controls="contact" ><i class="fas fa-chevron-down"></i></a>
+                        <div id="contact-text">
+                            Have something to add? <div>Get in touch!</div>
+                        </div>
+                        <form action="" id="form">
+                            <label for="name">My name is 
+                                <input type="text" id="name" name="name" size="35" minlength="2" required>
+                            </label>
+                            <label for="email">My e-mail is 
+                                <input type="email" id="email" name="email" size="35" required>
+                            </label>
+                            <label for="idea">My favourite way to fight boredom is 
+                                <textarea id="idea" name="idea" rows="6" cols="35" minlength="1" required>
+                                </textarea>
+                            </label> 
+                            <button type="submit" id="submit-button">Submit idea</button>                       
+                        </form>
+                    </div>
+                </div> 
+                <nav id="footer-nav" class="py-2 px-auto">
+                    <a href="#about"  class="footer-link footer-item-nav"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="about">About</a>
+                    <a href="#contact" class="footer-link footer-item-nav" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
+                    <a href="https://www.linkedin.com/in/ligabaikova" class="footer-link footer-item-social" target="_blank"><i class="fab fa-linkedin-in" aria-label="linkedin profile"></i></a>
+                    <a href="https://github.com/liigalized" class="footer-link footer-item-social" target="_blank"><i class="fab fa-github" aria-label="github profile"></i></a>
+                    <a href="https://twitter.com/liiga_lized" class="footer-link footer-item-social" target="_blank"><i class="fab fa-twitter" aria-label="twitter profile"></i></a>
+                </nav>
+            </div>
         </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -51,8 +51,6 @@ p {
 /*---------------------- Landing Page -------------------------------------- */
 
 #landing-pg {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +64,7 @@ p {
 
 #landing-text {
     font-family: 'neon-stream', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     color: #F2E871;
     text-shadow: 10px 10px 40px #EFEAE2D6;
     margin-bottom: 50px;
@@ -231,7 +229,6 @@ footer {
 
 #footer-nav {
     background-color: #2B3256;
-    padding: 8px 30px 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -367,24 +364,24 @@ label {
 }
 
 /* desktop styles */
+@media screen and (min-width:575px){
+    #footer-nav {
+        justify-content: flex-end;
+    }
+    .footer-link {
+        margin: 0 30px;
+    }
+    .footer-item-social {
+        margin: 0 15px;
+    }
+}
+
 @media screen and (min-width:768px) {
     .footer-decorated {
         padding-top: 200px;
         background-image: url('../images/footer-bkg-desktop.png');
         background-position: bottom 50px left 0;
         background-size: 102% 40%;
-    }
-    #footer-nav {
-        display: flex;
-        justify-content: flex-end;
-        background-color: #2B3256;
-        padding: 8px 50px 14px;
-    }
-    .footer-link {
-        margin: 0 70px;
-    }
-    .footer-item-social {
-        margin: 0 15px;
     }
     div.card.card-body {
         width: 100%;
