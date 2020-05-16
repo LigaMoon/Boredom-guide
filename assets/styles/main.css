@@ -967,79 +967,6 @@ span.carousel-control-next-icon {
 
 /*---------------------- Active Page ----------------------------------------- */
 
-/* .active-page-bottom-section {
-    padding-top: 80px;
-    background-image: url('../images/footer-bkg-mobile2.png');
-    background-repeat: no-repeat;
-    background-size: 101% 2%;
-    background-position: top center;
-}
-
-.happy-page-bottom-section div.row {
-       background-color:#2B3256; 
-       width: 100%;
-       background-clip: border-box;
-       margin-right: 0;
-       margin-left:0;
-       margin-bottom: -2px;
-       padding: 0 30px 0;
-}
-
-.happy-page-bottom-section .asterisk {
-    color:#A7EBDC;
-}
-
-.happy-page-bottom-section .section-heading, .happy-page-bottom-section .section-description {
-    color:#A7EBDC;
-}
-
-.happy-page-bottom-section div.card {
-    margin: 10px auto;
-    border: none;
-}
-
-.happy-page-bottom-section div.card-body {
-    background-color:#E3F1F2;
-}
-
-.happy-page-bottom-section div.good-news-item {
-    padding: 50px 0px;
-}
-
-.card-heading {
- text-align: center;
- font-family: 'PT Serif',serif;
- font-size: 20px;
-}
-
-.bottom-section p.card-text {
-    font-family: 'Exo',sans-serif;
-    font-size: 15px;
-    text-align: justify;
-}
-
-@media screen and (min-width:576px) {
-        .happy-page-bottom-section {
-            padding: 100px 0px 0px;
-            background-image: url('../images/footer-bkg-desktop.png');
-            background-size: 101% 3%;
-        }
-}
-
-@media screen and (min-width:768px) {
-        .happy-page-bottom-section {
-            padding: 100px 0px 0px;
-            background-size: 101% 5%;
-        }
-}
-
-@media screen and (min-width:992px) {
-    .happy-page-bottom-section {
-        padding: 150px 0px 0px;
-        background-size: 101% 10%;
-    }
-} */
-
 .active-page-bottom-section {
     padding: 80px 0 0;
     background-image: url('../images/footer-bg-mobile2.png');
@@ -1155,5 +1082,24 @@ span.carousel-control-next-icon {
     }
     .entertained-border-lg {
         border-right: 1px solid #A7EBDC;
+    }
+}
+
+
+/*---------------------- Informed Page ----------------------------------------- */
+
+.important-text-wrapper {
+    border:#2B3156 2px solid;
+    
+}
+
+.warning-sign {
+    height: 70px;
+    width: auto;
+}
+
+@media screen and (min-width:768px) {
+    .warning-sign {
+        height: 100px;
     }
 }
