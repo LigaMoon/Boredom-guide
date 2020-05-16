@@ -1089,13 +1089,83 @@ span.carousel-control-next-icon {
 /*---------------------- Informed Page ----------------------------------------- */
 
 .important-text-wrapper {
-    border:#2B3156 2px solid;
-    
+    border:#2B3156 3px solid;
 }
 
 .warning-sign {
     height: 70px;
     width: auto;
+}
+
+#informed-word-and {
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+}
+
+.informed-info-boxes {
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#A7EBDC;
+    width: 200px;
+    background-color:#2B3256;
+}
+
+.important-text-wrapper .section-description a {
+    color:#2B3256;
+    text-decoration: underline;
+}
+
+.important-text-wrapper .section-description a:hover {
+    color:#C76D6D;
+}
+
+.informed-page-bottom-section .section-heading {
+    color:#C76D6D;
+}
+
+.informed-page-bottom-section div.card-body {
+    background-color:#2B3256;
+    padding-right: 0;
+}
+
+.informed-page-bottom-section h5.card-title {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    color:#F2E871;
+    padding-right: 1.25rem;
+}
+
+.informed-page-bottom-section p.card-text {
+    text-align: justify;
+}
+
+.informed-page-bottom-section ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.informed-page-bottom-section a {
+    color:#A7EBDC;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.informed-page-bottom-section a:hover {
+    color:#F2E871;
+}
+
+.informed-page-bottom-section ul li::before {
+    content: "";
+    background-color:#F2E871;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: -40px;
+    margin-right: 10px;
 }
 
 @media screen and (min-width:768px) {
