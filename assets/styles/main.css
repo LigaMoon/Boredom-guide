@@ -224,7 +224,10 @@ footer {
     background-repeat: no-repeat;
     background-size: 102% 30%;
     background-position: bottom 20px left 0;
+}
 
+.footer-ent {
+    background-color:#A7EBDC;
 }
 
 #footer-nav {
