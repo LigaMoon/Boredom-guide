@@ -997,6 +997,7 @@ span.carousel-control-next-icon {
     background-color:#2B3256;
     width: 100%;      
     padding-top: 30px;
+    margin-bottom: -1px;
 }
 
 
