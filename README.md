@@ -112,20 +112,20 @@ This is a website for anyone who is looking for new entertainment ideas while st
     - #### Happy
         - Image carousel that is responsive and changes dimensions depending on the viewport size. This lets the mobile users view images in portrait layout while desktop users can enjoy them in landscape mode. This provides a more enjoybale experience and leaves a bigger impact.
         - Card elements used to display individual good news stories. Each image in the card is clickable and lets the user visit relevant sites to read more about the subject.
-    - #### entertained
+    - #### Entertained
+        - Short description of each entertainment item, with clickable image that leads the user to a webpage to learn more about said item.
     - #### Informed
+        - Important alert message about safety during the coronavirus that includes links to the official government sites. This keeps the user aware of safety concerns and provides a trusted source of the latest information.
+        - The most important safety principles are highlighted in boxes to attract users attention.
+        - Card elements used to group multiple sources of information depending on the way the information will be consumed (documentaries, short videos or audio), this gives the user a choice in how they can stay informed without the need of reading.
 
 ### Future Features
+ 
+- Ongoing implimentation of user feedback
+- Create a way for the user to rate the website without having to type up feedback
+- A page where people can leave their positive experiences during the pandemic or just share positive content wth others
+- Adding a way for people to 'like' (provide someone with positive feedback) the content that has been shared by others
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
