@@ -435,6 +435,15 @@ label {
     align-self: center;
 }
 
+#mars-link {
+    color:#2B3256;
+    text-decoration: underline;
+}
+
+#mars-link:hover {
+    color:#C76D6D;
+}
+
 .banner-heading {
     font-family: 'neon-stream', sans-serif;
     font-size: 10vw;
