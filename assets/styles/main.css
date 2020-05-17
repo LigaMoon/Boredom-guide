@@ -809,17 +809,13 @@ span.carousel-control-next-icon {
     color:#A7EBDC;
 }
 
-.happy-page-bottom-section div.card {
-    margin: 10px auto;
-    border: none;
-}
 
 .happy-page-bottom-section div.card-body {
     background-color:#E3F1F2;
 }
 
 .happy-page-bottom-section div.good-news-item {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 .card-heading {
@@ -1015,16 +1011,27 @@ span.carousel-control-next-icon {
     margin-bottom: 15%;
 }
 
-.activity-list, .progress-list {
-    list-style-position: inside;
-    /* display: inline-block; */
+.progress-list {
     font-family: 'Exo', sans-serif;
     font-size: 22px;
     color:#A7EBDC;
-
+    width: 220px;
 }
 
+.activity-list {
+    list-style-position: inside;
+}
 
+.activity-list a {
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+    color:#A7EBDC;
+    text-decoration: underline;
+}
+
+.activity-list a:hover {
+    color:#C76D6D;
+}
 
 .activity-list li::before {
     content: " ";
@@ -1038,7 +1045,18 @@ span.carousel-control-next-icon {
 }
 
 .progress-list {
-    list-style-type: none;
+    list-style: none;
+    text-align: right;
+}
+
+.progress-list li{
+    text-align: right;
+    /* padding-right: 20vw; */
+    /* margin-right: 10px; */
+}
+
+.progress-list img {
+    width: 90px;
 }
 
 @media screen and (min-width:576px) {
@@ -1047,8 +1065,6 @@ span.carousel-control-next-icon {
         background-image: url('../images/footer-bkg-desktop.png');
         background-size: 101% 95px;
     }
-
-
 }
 
 @media screen and (min-width:768px) {
@@ -1060,7 +1076,7 @@ span.carousel-control-next-icon {
         border-right: 1px solid #A7EBDC;
     }  
     .active-page-bottom-section p {
-        height: 300px;
+        height: 200px;
     } 
     .img-container {
         position: relative;
@@ -1070,7 +1086,7 @@ span.carousel-control-next-icon {
         width: 300px;
         margin: auto;
     }
-    .active-page-bottom-section img {
+    .active-page-bottom-section .img-container img {
         position: absolute;
         bottom: 0;
         left: 5%;
