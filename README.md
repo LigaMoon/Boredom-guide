@@ -70,10 +70,6 @@ This is a website for anyone who is looking for new entertainment ideas while st
 
 ### Existing Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-
 - ### Common
     - #### Header - allows user to easily navigate accross all pages
         - Header itself is positioned to always be visible (positionet absolutely using Bootstrap 'sticky-top' class) at the top of the screen (mobile and desktop) which allows visitors to find it quickly.
@@ -99,12 +95,23 @@ In this section, you should go over the different parts of your project, and des
     - #### Decorative elements
         - Custom created decorative styling backgrounds are used accross all pages provifing user with a consistent and unique webpage browsing experience.
     - #### Responsivness
-        - 
+        - All Pages are responsive and provide the same functionality regardless of the viewport size.
     - #### Footer
+        - Footer has been designed to be at the bottom of the page, regardless of the amoount of content. This aids the overall user experience.
+        - All content has been spaced out but aligned to the right to mirror the navigation links in the header creating an intuitive position.
+        - Social links have been grouped together to signify their connection, when hovered over, they increase in size.
+        - 'About' link is a collapsable bootstrap element which, when clicked, expands and reveals a short descritpion of the page without leaving the page.
+        - 'Contact' link is also a collapsable bootstrap element containing a form. This form is meant for any feedback or suggestions a user might have. This lets's the user participate in the creation/improvement of the page.
+
 - ### Specific to Pages
     - #### Landing Page
-    - #### home
+        - Custom background created to set the mood of the website. This serves as a hero image with a call-to-action button that leads to the homepage. The image takes up the whole viewport to bring the users attention to the heading and inviting the user to explore the website.
+    - #### Home
+        - A short introduction of the page to let user know what the purpose of the page is.
+        - Short descriptions of each page with a call-to-action buttons attached. This lets the user learn more about each page, and visit the relevant site.
     - #### Happy
+        - Image carousel that is responsive and changes dimensions depending on the viewport size. This lets the mobile users view images in portrait layout while desktop users can enjoy them in landscape mode. This provides a more enjoybale experience and leaves a bigger impact.
+        - Card elements used to display individual good news stories. Each image in the card is clickable and lets the user visit relevant sites to read more about the subject.
     - #### entertained
     - #### Informed
 
