@@ -1,5 +1,5 @@
 
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">A Guide to Fun Activities</h1>
 
 Go to the live website
 
