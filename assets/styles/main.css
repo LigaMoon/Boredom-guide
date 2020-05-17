@@ -605,7 +605,7 @@ div.col.home-page-banner-img {
 }
 
 .home-page-bubble {
-    height: 400px;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -628,7 +628,7 @@ div.col.home-page-banner-img {
 
 .home-page-bubble h2 {
     font-family: 'PT Serif',serif;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 700;
     position: absolute;
     margin: auto;
@@ -636,7 +636,7 @@ div.col.home-page-banner-img {
 
 .bubble-left h2 {
     left: 1vw;
-    top: 120px;
+    top: 110px;
 }
 
 .bubble-right h2 {
@@ -644,13 +644,13 @@ div.col.home-page-banner-img {
 }
 
 h2.heading-entertained {
-    font-size: 50px;
-    top: 150px;
+    font-size: 45px;
+    top: 127.5px;
 }
 
 h2.heading-informed {
     font-size: 60px;
-    top: 150px;
+    top: 110px;
 }
 
 
@@ -691,16 +691,19 @@ h2.heading-informed {
 }
 
 @media screen and (min-width:576px) {
+    .home-page-bubble {
+        height: 400px;
+    }
     .bubble-left h2 {
-        top: 130px;
+        top: 140px;
         font-size: 100px;
     }
     h2.heading-entertained {
-        font-size: 55px;
+        font-size: 60px;
         top: 160px;
     }
     h2.heading-informed {
-        font-size: 70px;
+        font-size: 75px;
         top: 160px;
     }
 }
