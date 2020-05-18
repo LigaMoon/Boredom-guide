@@ -157,9 +157,32 @@ This is a website for anyone who is looking for new entertainment ideas while st
 
 ## Testing
 
-CSS3
-HTML5
+CSS3 - add the link to a screnshot of testing
+HTML5 - same
 
+ 1. ### Functionality Testing
+    - All external links were tested to make sure they open up the correct pages in new tabs
+        - All social links in the footer bring the user to the relevant social pages
+        - All picture links in the Happy, Entertained and Informed pages, open the relevant website to let the user find out more information
+        - All links in the Active page open a YouTube video of the clicked exercise
+        - Both links in the top section of the Informed page bring the user to the correct sites
+    - All internal links were tested to make sure that all pages are correclty connected 
+        - Landing Page brings the user to the Home Page
+        - Navigation links bring the user to the relevant pages
+        - Brand word located in the navigation bar always brings the user to the home page
+    - The Form functions correclty
+        - Email validation is working properly, requiring a valid email address to be entertained
+        - Name and text fields require at least two characters of text to be entertained
+        - Submit button lets you 'submit' the form only if above fields have been filled out correclty
+
+2. ### CSS3 validator - Pass - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fassets%2Fstyles%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+3. ### HTML5 validator
+    - Landing Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Findex.html)
+    - Home Page - Pass - [Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fhome.html)
+    - Happy Page - Pass - [Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fhappy.html)
+    - Entertained Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fentertained.html)
+    - Active Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Factive.html)
+    - Informed Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Finformed.html)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
