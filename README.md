@@ -184,6 +184,14 @@ HTML5 - same
     - Active Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Factive.html)
     - Informed Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Finformed.html)
 
+4. ### Usability Testing
+    - To test the ease of navigation, this website was shared with few friends of different ages and different levels of computer/smart device knowledge. There were no issues identified regarding the simplicity of navigating the website.
+    - The testers also verified that all buttons, links, hamburger menu and photo carousel work correctly, intuitively and as expected
+
+5. ### Compatibility Testing
+    - Desktop bowser compatibility was tested using the latest verisons on Opera, Firefox, Microsoft Edge, Chrome and Safari browsers.
+    - Mobile browser compatibility 
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -218,7 +226,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- UnSplash
+- Katerina
+- [Testing](https://www.softwaretestinghelp.com/web-application-testing/)
+- All articles
+- All podcasts etc
 ### Media
 - The photos used in this site were obtained from ...
 
