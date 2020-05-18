@@ -216,6 +216,14 @@ footer {
     width: 100%;
 }
 
+/* Since footer top margin is set to auto, I'm adding negative margins to cancel out the space */
+.home-page-banner + main, .entertained-banner + main {
+    margin-bottom: -200px;
+}
+ .informed-banner + main {
+     margin-bottom: -100px;
+ }
+
 /* Styling footers that have different backgrounds */
 .footer-decorated {
     padding-top: 200px;
