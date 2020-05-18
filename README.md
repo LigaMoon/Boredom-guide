@@ -175,7 +175,14 @@ HTML5 - same
         - Name and text fields require at least two characters of text to be entertained
         - Submit button lets you 'submit' the form only if above fields have been filled out correclty
 
-2. ### CSS3 validator - Pass - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fassets%2Fstyles%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+2. ### CSS3 validator - Pass
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fassets%2Fstyles%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!">
+        </a>
+    </p>
 3. ### HTML5 validator
     - Landing Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Findex.html)
     - Home Page - Pass - [Results](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fliigalized.github.io%2FMS1_boredom_guide%2Fhome.html)
@@ -196,8 +203,44 @@ HTML5 - same
     - The website was exhaustively tested for responsiveness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). Different viewport sizes were simulated ranging from as small as iPhone 5 (320px) to large desktop sizes (1200px and above).
 
 6. ### Performance Testing
-    - Overall WebPage Performance Test was done using WebPageTest - [Results](https://www.webpagetest.org/performance_optimization.php?test=200518_4T_12558daf694aeeca579fb1a8dca254e1&run=1#cache_static_content)
-    
+    - Overall WebPage Performance Test was done using [WebPageTest](https://www.webpagetest.org/) with test location set to Ireland and test browser set to Chrome. Some areas of improvement according to this website are Security of the site and Cache Ststic Content which are out of the scope of this particular project, however, I will be looking to imporve these in the future.
+        - Landing Page - [Results](https://www.webpagetest.org/result/200518_SN_8b1c098849ba0d339e771cca15846296/)
+        - Home Page - [Results](https://www.webpagetest.org/result/200518_18_7856b3fa7df127473d23d829d1ef3eab/)
+        - Happy Page - [Results](https://www.webpagetest.org/result/200518_MK_d764a4ff6cf1db6c48b145f219dfbc27/)
+        - Entertained Page - [Results](https://www.webpagetest.org/result/200518_8G_5bcc3467dde8cc9c2f134da6d3e1efcf/)
+        - Active Page - [Results](https://www.webpagetest.org/result/200518_E1_9ca933f91b804f2a3993887818212cf1/)
+        - Informed Page - [Results](https://www.webpagetest.org/result/200518_ER_09a540520ef76222ec401d705036334c/)
+
+7. ### Testing User Stories 
+- #### As a visitor for whom staying at home for longer period of time is a new thing (such as people not working at the moment and are in a quarantine),
+    1. I want to easily understand the purpose and the layout of the site without additional instructions needed
+        -  The Landing Page has a clear message, inviting the user to Explore if they are bored and clearly indicating that this guide serves an entertainment purpose.
+        - There is only one path for a user to take which is to click the call to action button "Explore" to procede to the Home Page.
+        - Once the user has navigated to the Home Page, she/he is greeted by a very short summary indicating what is the purpose of the webpage.
+        - The Home Page has very short summaries of each page with call to action buttons, inviting the user to "Explore" anf allowing to navigate to the site of interest without even looking for a navigation bar.
+    2. I want to intuitively navigate through the site to browse the content
+        - The navigation bar has been positioned at the top of the page and is visible at all times. This allows the user to always be able to quickly find the navigation bar.
+        - Each page has destinct sections separated by colored blocks to aid the navigation
+    3. I want to enjoy the design and for it to add to the overall feel of entertainment
+        - The design was custom created which keeps the users interest
+        - wide range of colors were used which are meant to create an energetic, happy environme
+    4. I want to access external links and be able to learn more about each activity mentioned
+        - Relevant webpage links 
+    5. I want to find a variety of entertainment sources to match up with my interests
+    6. I want to be able to click and interact with the page rather than scroll to build on the feeling of fun
+- #### A visitor who is looking for new types of entertainment, such as someone who has been in a quarantine for a while and has exhausted all sources of entertainment known to her/him
+    1. I want to explore unique ideas of entertainment to find more ways to pass time
+    2. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time
+    3. I want to be able to scan through the contetnt quicklu and see that the information concise
+- #### As a visitor who has already visited this website and is using it as a reference,
+    1. I want to be able to use the website on any device so I can keep it handy
+    2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one oage to another
+    3. I want to provide my feedback so that the site can be improved and has all my favourites
+- #### As a visitor looking to stay entertained and active at home,
+    1. I want to find a variety of different physical activities
+    2. I want to be able to access the activities mentioned without having to look for them myself
+    3. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -207,6 +250,8 @@ For any scenarios that have not been automated, test the user stories manually a
 
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
 
 ## Deployment
 
@@ -231,23 +276,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 - All podcasts etc
 ### Media
 - The photos used in this site were obtained from ...
+- CI README example file
 
 ### Acknowledgements
 
 - I received inspiration for this project from X
 
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/validator#warnings">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!">
-    </a>
-</p>
-
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!">
-    </a>
-</p>
