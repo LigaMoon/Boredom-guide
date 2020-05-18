@@ -124,47 +124,69 @@
             </section>
         </main>
         <!-- Footer -->
+
+
         <footer class="footer footer-decorated mt-auto">
             <div class="container mw-100 m-0 p-0">
-                <div class="collapse" id="about">
-                    <div class="card card-body">
-                        <a href="#about"  class="arrow-toggle"  data-toggle="collapse" role="button" aria-expanded="true" aria-controls="about" ><i class="fas fa-chevron-down"></i></a>
-                        In a time where everything is uncertain and basic daily joys of life have become harder to come by,
-                        I have created this website to use as a guide for passing the extra time we have and find new and unique
-                        ways of entertainment. Stay safe, stay at home and explore :)
-                    </div>
-                </div>
-                <div class="collapse" id="contact">
-                    <div class="card card-body px-0 px-sm-2">
-                        <a href="#contact"  class="arrow-toggle"  data-toggle="collapse" role="button" aria-expanded="true" aria-controls="contact" ><i class="fas fa-chevron-down"></i></a>
-                        <div id="contact-text">
-                            Have something to add? <div>Get in touch!</div>
-                        </div>
-                        <form method="post" id="form">
-                            <label for="name">My name is 
-                                <input type="text" id="name" name="name" size="31" minlength="2" required>
-                            </label>
-                            <label for="email">My e-mail is 
-                                <input type="email" id="email" name="email" size="31" required>
-                            </label>
-                            <label for="idea">My favourite way to fight boredom is 
-                                <textarea id="idea" name="idea" rows="6" cols="31" minlength="1" required>
-                                </textarea>
-                            </label> 
-                            <button type="submit" id="submit-button">Submit idea</button>                       
-                        </form>
-                    </div>
-                </div> 
                 <nav id="footer-nav" class="py-2 px-auto">
-                    <a href="#about"  class="footer-link footer-item-nav"  data-toggle="collapse" role="button" aria-expanded="false" aria-controls="about">About</a>
-                    <a href="#contact" class="footer-link footer-item-nav" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
+                    <a href="#about"  class="footer-link footer-item-nav"  data-toggle="modal" data-target="#about-modal">About</a>
+                    <a href="#contact" class="footer-link footer-item-nav" data-toggle="modal" data-target="#contact-modal">Contact</a>
                     <a href="https://www.linkedin.com/in/ligabaikova" class="footer-link footer-item-social" target="_blank"><i class="fab fa-linkedin-in" aria-label="linkedin profile"></i></a>
                     <a href="https://github.com/liigalized" class="footer-link footer-item-social" target="_blank"><i class="fab fa-github" aria-label="github profile"></i></a>
                     <a href="https://twitter.com/liiga_lized" class="footer-link footer-item-social" target="_blank"><i class="fab fa-twitter" aria-label="twitter profile"></i></a>
                 </nav>
+                <!-- Modals for About and Contact pages -->
+                <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="about-description-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                In a time where everything is uncertain and basic daily joys of life have become harder to come by,
+                                I have created this website to use as a guide for passing the extra time we have and find new and unique
+                                ways of entertainment. Stay safe, stay at home and explore :)
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5>Have Something to Add? Get in Touch!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form method="post" id="form">
+                                    <label for="name">My name is 
+                                        <input type="text" id="name" name="name" size="31" minlength="2" required>
+                                    </label>
+                                    <label for="email">My e-mail is 
+                                        <input type="email" id="email" name="email" size="31" required>
+                                    </label>
+                                    <label for="idea">My favourite way to fight boredom is 
+                                        <textarea id="idea" name="idea" rows="6" cols="31" minlength="1" required>
+                                        </textarea>
+                                    </label> 
+                                    <button type="submit" id="submit-button">Submit idea</button>                       
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
-
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
