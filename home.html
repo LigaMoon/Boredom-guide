@@ -124,8 +124,6 @@
             </section>
         </main>
         <!-- Footer -->
-
-
         <footer class="footer footer-decorated mt-auto">
             <div class="container mw-100 m-0 p-0">
                 <nav id="footer-nav" class="py-2 px-auto">
@@ -138,19 +136,16 @@
                 <!-- Modals for About and Contact pages -->
                 <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="about-description-modal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
+                        <div class="modal-content border-0">
+                            <div class="modal-header border-0 pb-0">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body text-center px-md-4 pt-0">
                                 In a time where everything is uncertain and basic daily joys of life have become harder to come by,
                                 I have created this website to use as a guide for passing the extra time we have and find new and unique
                                 ways of entertainment. Stay safe, stay at home and explore :)
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
@@ -158,29 +153,32 @@
                 <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-form-modal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h5>Have Something to Add? Get in Touch!</h5>
+                            <div class="modal-header border-0">
+                                <h5 class="mb-0 mx-auto align-self-end text-center">Have Something to Add? Get in Touch!</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form method="post" id="form">
-                                    <label for="name">My name is 
-                                        <input type="text" id="name" name="name" size="31" minlength="2" required>
-                                    </label>
-                                    <label for="email">My e-mail is 
-                                        <input type="email" id="email" name="email" size="31" required>
-                                    </label>
-                                    <label for="idea">My favourite way to fight boredom is 
-                                        <textarea id="idea" name="idea" rows="6" cols="31" minlength="1" required>
-                                        </textarea>
-                                    </label> 
+                                <form class="mx-auto">
+                                    <div class="form-group">
+                                        <label for="name">Name 
+                                            <input type="text" class="form-control" id="name" name="name" minlength="2" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">E-mail 
+                                            <input type="email" class="form-control" id="email" name="email" required>
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idea">Favourite way to fight boredom
+                                            <textarea id="idea" class="form-control" name="idea" rows="6" minlength="2" required>
+                                            </textarea>
+                                        </label> 
+                                    </div>
                                     <button type="submit" id="submit-button">Submit idea</button>                       
                                 </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
