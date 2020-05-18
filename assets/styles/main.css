@@ -226,14 +226,6 @@ footer {
     background-position: bottom 20px left 0;
 }
 
- /* Since toop margin of footer is set to auto, I'm removing some unneeded space */
-/* .entertained-banner + main, .home-page-banner + main {
-    margin-bottom: -200px;
-}
-
-.informed-page-banner + main {
-    padding-bottom: -100px;
-} */
 
 .footer-ent {
     background-color:#A7EBDC;
@@ -1154,6 +1146,7 @@ span.carousel-control-next-icon {
 .informed-page-bottom-section div.card-body {
     background-color:#2B3256;
     padding-right: 0;
+    padding-left: 0;
 }
 
 .informed-page-bottom-section h5.card-title {
@@ -1161,39 +1154,30 @@ span.carousel-control-next-icon {
     font-family: 'PT Serif', serif;
     font-size: 25px;
     color:#F2E871;
-    padding-right: 1.25rem;
 }
 
-.informed-page-bottom-section p.card-text {
-    text-align: justify;
+.informed-page-bottom-section .card-text {
+    padding-right: 0;
 }
 
 .informed-page-bottom-section ul {
-    list-style: none;
     line-height: 30px;
 }
 
 .informed-page-bottom-section a {
     color:#A7EBDC;
     font-family: 'Exo', sans-serif;
-    font-size: 15px;
-    text-decoration: underline;
+    font-size: 1rem;
+    border-bottom: 1px solid #A7EBDC;
 }
 
 .informed-page-bottom-section a:hover {
-    color:#F2E871;
+    color:#C76D6D;
+    text-decoration: none;
+    border-bottom: 0.5px solid #C76D6D;
 }
 
-.informed-page-bottom-section ul li::before {
-    content: "";
-    background-color:#F2E871;
-    border-radius: 50%;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-left: -40px;
-    margin-right: 10px;
-}
+
 
 @media screen and (min-width:768px) {
     .warning-sign {
