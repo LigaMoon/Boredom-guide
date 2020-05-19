@@ -274,24 +274,23 @@ This is a website for anyone who is looking for new entertainment ideas while st
     3. I want to provide my feedback so that the site can be improved and has all my favourites
         - 'Contact' is located in the footer which is available from all pages.
         - Once clicked, it will open a modal that layers on top of the page the user is currently on.
-        - Once the 'Submit' button is clicked the 
+        - Once the 'Submit' button is clicked, the webpage is refreshed.
         - The modal cotains a form which lets the user to put in their name, email and a suggestion.
         - This modal can be closed either by clicking on a 'x' or anywhere outside of it.
 - #### As a visitor looking to stay entertained and active at home,
-    1. I want to find a variety of different physical activities
-    2. I want to be able to access the activities mentioned without having to look for them myself
-    3. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is
+    1. I want to find a variety of different physical activities.
+        - The user can naviate to the Active Page which has been created solely for physical activities.
+        - The user can additionally find some active entertainment ideas under the Entertained Page. These are 'Geocaching' and 'Learn a TikTok Dance'.
+        - All forms of activities can be done either from home or outside while still kepeing safety in mind.
+    2. I want to be able to access the activities mentioned without having to look for them myself.
+        - Under each type the user can chose from one fo three different exercises.
+        - Each exercise has a link which will bring the user to the exercise video which will open in a new tab.
+    3. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is.
+        - The Active Page has four different activity levels, namley 'Lean', 'Sweaty', 'Challenging' and 'Fun'.
+        - The difficulty level is indicated by a progress bar under the exercises.
 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+8. ## Specific Features Manually tested
+    - ### Navigation bar
 
 
 ## Deployment
