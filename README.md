@@ -2,6 +2,7 @@
 <h1 align="center">A Guide to Fun Activities</h1>
 
 Go to the live website
+GitHub Repo
 
 This website is meant to promote staying at home and being entertained while doing so, hence the slogan 'Stay...'
 
@@ -312,6 +313,29 @@ This is a website for anyone who is looking for new entertainment ideas while st
         - All external links have been tested.
 
 ## Deployment
+
+### Publishing
+This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outline below.
+1. Go to the GitHub website and login.
+2. On the left hand site you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/liigalized/MS1_boredom_guide) used for this project).
+3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
+4. Scroll down till you see 'GitHub Pages' heading.
+5. Under the 'Source' click on the dropdown and select 'master branch'
+6. The page will reload and you'll see  the link of your published page displayed under 'GitHub' pages.
+7. It takes few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
+
+### Forking
+If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
+1. Go to the GitHub website and login.
+2. Lcate the [Repository](https://github.com/liigalized/MS1_boredom_guide) used for this project.
+3. On the right hand side of the Repository's name you'll the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
+4. This will create a copy in your personal repository.
+5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
+
+### Cloning 
+If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
+1. Go to the GitHub website and login.
+2. Locate the [Repository](https://github.com/liigalized/MS1_boredom_guide) used for this project.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
