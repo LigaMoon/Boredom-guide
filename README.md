@@ -35,7 +35,7 @@ This is a website for anyone who is looking for new entertainment ideas while st
     - #### A visitor who is looking for new types of entertainment, such as someone who has been in a quarantine for a while and has exhausted all sources of entertainment known to her/him
         1. I want to explore unique ideas of entertainment to find more ways to pass time
         2. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time
-        3. I want to be able to scan through the contetnt quicklu and see that the information concise
+        3. I want to be able to scan through the content quickly and find concise information before I commit to any sepcific topic.
     - #### As a visitor who has already visited this website and is using it as a reference,
         1. I want to be able to use the website on any device so I can keep it handy
         2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one oage to another
@@ -157,8 +157,6 @@ This is a website for anyone who is looking for new entertainment ideas while st
 
 ## Testing
 
-CSS3 - add the link to a screnshot of testing
-HTML5 - same
 
  1. ### Functionality Testing
     - All external links were tested to make sure they open up the correct pages in new tabs
@@ -214,28 +212,71 @@ HTML5 - same
 7. ### Testing User Stories 
 - #### As a visitor for whom staying at home for longer period of time is a new thing (such as people not working at the moment and are in a quarantine),
     1. I want to easily understand the purpose and the layout of the site without additional instructions needed
-        -  The Landing Page has a clear message, inviting the user to Explore if they are bored and clearly indicating that this guide serves an entertainment purpose.
-        - There is only one path for a user to take which is to click the call to action button "Explore" to procede to the Home Page.
-        - Once the user has navigated to the Home Page, she/he is greeted by a very short summary indicating what is the purpose of the webpage.
-        - The Home Page has very short summaries of each page with call to action buttons, inviting the user to "Explore" anf allowing to navigate to the site of interest without even looking for a navigation bar.
+        - The landing page is simple and clear with one word text asking if the user is bored and if so they have an option to enter the website by clicking the button underneath the text that says 'Explore'. This gives an indication that th website is created for entertainment purposes.
+        - The home page has a concise description of the website and an option to scroll down the page. If the user chooses to scroll down they will find four short summaries, one for each page, to let them know what kind of content can be found.
+        - When exploring different pages, user will see similar design which will make the pages feel familiar and user won't feel confused each time they click on a new page.
     2. I want to intuitively navigate through the site to browse the content
-        - The navigation bar has been positioned at the top of the page and is visible at all times. This allows the user to always be able to quickly find the navigation bar.
-        - Each page has destinct sections separated by colored blocks to aid the navigation
-    3. I want to enjoy the design and for it to add to the overall feel of entertainment
-        - The design was custom created which keeps the users interest
-        - wide range of colors were used which are meant to create an energetic, happy environme
+        - The first page they would 'explore' wouold be the home page which, as already mentioned, has some information about each site and an option navigate to each site by using associated call to action buttons.
+        - The user also has an option to use the navigation bar which looks the same on each page and is always visible at the top of the screen.
+        - In the naviagtion bar, the name of the page is larger and underlined.
+        - Each individual page has a top banner with the page name highlighted to instantaniously let the user know what page they are on.
+        - On each page user will find sections with clear headings and short, one sentance descriptions of what each section is about.
+    3. I want to be captivated by the design to keep my atteniton.
+        - The design was custom created avoiding generic templates to lure the user in and make them feel like the content is as interesting as the design and vice versa
+        - The red color create the sense of excitement while the muted blue shows sophistication. Contrast between text and the background makes it easy for the user to consume the content while the contrast between each section builds on the sense of exploration.
+        - While each page was designed to haev common aspects, they were also designed not to be the same. The user won't get bored by the time they open the last page.
     4. I want to access external links and be able to learn more about each activity mentioned
-        - Relevant webpage links 
+        - Happy Page
+            - Under the section 'Good News Stories' the user will find short description of few good news stories with a large image clearly associated with it
+            - Under the section heading it is indicated that the images can be clicked on to read each storie in full
+            - Once the image is clicked, the relevant external webpage will open in a new tab so that user can easily navigate back to the original page
+        - Entertained Page
+            - The user will find seven articles describing different avenues of entertainment with a large image associated with it.
+            - Under the section heading it is indicated that the images can be clicked on to learn more
+            - Once the image is clicked, the relevant external webpagr will open in a new tab
+        - Active Page
+            - Upon entering, the user will see four types of different physical activities, each type lists three exercses.
+            - All exercises have been underlined to indicate that they are clickable links.
+            - Once the user clicks a link, the exercise video will open in a new tab.
+        - Informed Page
+            - THe first thing the user will see is a warning statement to stay safe during COVID-19 with two external links for the user to find accurate, up to date information
+            - The links are underlined and will lead to WHO or HSE websites which will open in a new tab
+            - The user can scroll down to the bottom section with different sources of information listed
+            - Each source is a link which has been indicated by an underline and when clicked, brings the user to an external webpage in a new tab.
     5. I want to find a variety of entertainment sources to match up with my interests
+        - The Happy Page has cute animal pictures and Good News Stories
+        - The Entertained Page has seven different ways for the user to entertain themselves during their stay at home. These cover a wide range of interests and activity levels.
+        - The Active Page provides the user with four different levels of physicial activities that can be done at home or walking outside. The user can see the difficulty, equipment and fun level of each type of exercises as well as find links to each. 
+        - The Informed Page gives the user an option to find the latest offcial updates regarding the pandemic. The bottom section of this page provides alternative methods to stay informed in case the user prefers watching videos, documentaries or listen to podcasts instead of reading.
     6. I want to be able to click and interact with the page rather than scroll to build on the feeling of fun
+        - The site was desgned as multiple pages rather than one screollable page which lets the user click on buttons and explore the site.
+        - The Home site has buttons under each article to bring them to the relavant page.
+        - All Pages have few clickable links.
+        - The picture caroused on the Happy Page has buttons to navigate from one picture to another.
 - #### A visitor who is looking for new types of entertainment, such as someone who has been in a quarantine for a while and has exhausted all sources of entertainment known to her/him
     1. I want to explore unique ideas of entertainment to find more ways to pass time
-    2. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time
-    3. I want to be able to scan through the contetnt quicklu and see that the information concise
+        - The Entertained section has been uniquely curated to include less known or overlooked methods of entertainment such as Geocaching, exploring the Mars game or stargazing calendar.
+        - One of the types of activities under the Active Page is labeled as 'Fun' and lists three different apps that let the user turn their daily walks into a game
+        - The Informed page lists mutliple different podcasts, doccumentaries and YouTube channels for the user to pass time with.
+    2. I want to feel that the creator understands what they are talking about and their suggestions are worthy of my time
+        - The design of the page has been created in a very unique way, avoiding the generic templates to invoke the feeling of skill and proffesionalism which builds the trust that the creator understands what entertainment is.
+        - Each topic was researched and tested by few poeple to ensure it's actually entertaining.
+    3. I want to be able to scan through the content quickly and find concise information before I commit to any sepcific topic.
+        - The user will find short summary of all topics discussed with key points mentioned.
+        - Each topic has a heading so that the user can quickly identify if it's of interest to them.
+        - Topics are grouped in different pages depending on their content so that the user can chose what content they want to browse.
+        - The user will find that each topic has been sectioned off either by a color or card or a line to help identify where the previous topic ended.
 - #### As a visitor who has already visited this website and is using it as a reference,
     1. I want to be able to use the website on any device so I can keep it handy
-    2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one oage to another
+        - The website was designed mobile first, but has been adapted to be used on bigger screens and has also been tested on tablets. This lets the user access the website on any device and browser of their chosing.
+    2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one oage to another.
+        - The navigation bar has ben positioned at the top to be always visible on all pages.
     3. I want to provide my feedback so that the site can be improved and has all my favourites
+        - 'Contact' is located in the footer which is available from all pages.
+        - Once clicked, it will open a modal that layers on top of the page the user is currently on.
+        - Once the 'Submit' button is clicked the 
+        - The modal cotains a form which lets the user to put in their name, email and a suggestion.
+        - This modal can be closed either by clicking on a 'x' or anywhere outside of it.
 - #### As a visitor looking to stay entertained and active at home,
     1. I want to find a variety of different physical activities
     2. I want to be able to access the activities mentioned without having to look for them myself
