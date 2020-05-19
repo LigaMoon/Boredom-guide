@@ -1,53 +1,60 @@
 
 <h1 align="center">Fun Activity Guide</h1>
+<h1 align="center"><img src="./assets/images/readme-images/responsive-home-page.png" /></h1>
 
- <a href="https://liigalized.github.io/MS1_boredom_guide/informed.html" target="_blank"><img src="./assets/images/favicon.png" width="25px" /></a> :point_left: Live website
+ <a href="https://liigalized.github.io/MS1_boredom_guide/informed.html"><img src="./assets/images/favicon.png" width="25px" /></a> :point_left: Live website
 
-  <a href="https://github.com/liigalized/MS1_boredom_guide" target="_blank"><img src="./assets/images/githublogo.png" width="25px" /></a> :point_left: GitHub Repository
+  <a href="https://github.com/liigalized/MS1_boredom_guide"><img src="./assets/images/readme-images/githublogo.png" width="25px" /></a> :point_left: GitHub Repository
  
- 
-This website is meant to promote staying at home and being entertained while doing so, hence the slogan 'Stay...'
+ ## About
 
-This website was created to bring fun and joy to anyone who has found themselves in a 'quarantine' type of situation. This website is a guide of dfferent types and ways of entertainment to keep ourselves busy while the world is going through crisis. It has something for everyone, whether it's cute, funny, active or educating entertainment they're after, this page has it all.
-
-This is a website for anyone who is looking for new entertainment ideas while stuck at home. It's designed to provide a holistic overview of different kinds of fun activities and provides links to further information for a visitor to explore.
+This website was created to bring fun and joy to anyone who has found themselves in a 'quarantine' type of situation. It is a guide of different types and ways of entertainment to keep ourselves busy while the world is going through a crisis. Not only is it useable and responsive on all devices but it's looking good while doing so.
  
-#### ADD SCREENSHOTS OF PAGE
 
 
 ## Table of Contents
-    User Experience (UX)
-        User Stories
-        Design
-    Features
-        Common
-        Page specific
+
+[User Experience (UX)](#UX)
+
+[Features](#features)
+
+[Technologies Used](#technologies)
+
+[Testing](#testing)
+
+[Deployment](#deployment)
+
+[Known Bugs](#bugs)
+
+[Credits](#credits)
 
 
 
+<a name="UX"></a>
 ## User Experience (UX)
 
 - ### User Stories
-    - #### As a visitor for who staying at home for longer period of time is a new thing (such as people not working at the moment and are in a quarantine),
-        1. I want to easily understand the purpose and the layout of the site without additional instructions needed
-        2. I want to intuitively navigate through the site to browse the content
-        3. I want to enjoy the design and for it to add to the overall feel of entertainment
-        4. I want to access external links and be able to learn more about each activity mentioned
-        5. I want to find a variety of entertainment sources to match up with my interests
-        6. I want to be able to click and interact with the page rather than scroll to build on the feeling of fun
-    - #### A visitor who is looking for new types of entertainment, such as someone who has been in a quarantine for a while and has exhausted all sources of entertainment known to her/him
-        1. I want to explore unique ideas of entertainment to find more ways to pass time
-        2. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time
-        3. I want to be able to scan through the content quickly and find concise information before I commit to any sepcific topic.
-    - #### As a visitor who has already visited this website and is using it as a reference,
-        1. I want to be able to use the website on any device so I can keep it handy
-        2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one oage to another
-        3. I want to provide my feedback so that the site can be improved and has all my favourites
-    - #### As a visitor looking to stay entertained and active at home,
-        1. I want to find a variety of different physical activities
-        2. I want to be able to access the activities mentioned without having to look for them myself
-        3. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is
+    - #### As a visitor for who staying at home for a longer period is a new thing (such as people not working at the moment and are in quarantine).
+        1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
+        2. I want to intuitively navigate through the site to browse the content.
+        3. I want to enjoy the design and for it to add to the overall feel of entertainment.
+        4. I want to access external links and be able to learn more about each activity mentioned.
+        5. I want to find a variety of entertainment sources to match up with my interests.
+        6. I want to be able to click and interact with the page rather than scroll to build on the feeling of fun.
+    - #### A visitor who is looking for new types of entertainment, such as someone who has been in quarantine for a while and has exhausted all sources of entertainment known to her/him.
+        1. I want to explore unique ideas of entertainment to find more ways to pass time.
+        2. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time.
+        3. I want to be able to scan through the content quickly and find concise information before I commit to any specific topic.
+    - #### As a visitor who has already visited this website and is using it as a reference.
+        1. I want to be able to use the website on any device so I can keep it handy.
+        2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
+        3. I want to provide my feedback so that the site can be improved and has all my favorites.
+    - #### As a visitor looking to stay entertained and active at home.
+        1. I want to find a variety of different physical activities.
+        2. I want to be able to access the activities mentioned without having to look for them myself.
+        3. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is.
 
+        
 - ### Design
     - #### Colour scheme
         - As the main goal of this website is to provide entertainment ideas, the colors used had to tie in with that mentallity.  
@@ -68,7 +75,7 @@ This is a website for anyone who is looking for new entertainment ideas while st
         pictures to emphasize the meaning and type of activity described. The pictures were created 
         with a single color overlay to tie in with the color scheme and not look too distracting.
 
- 
+ <a name="features"></a>
 ## Features
 
 ### Existing Features
@@ -129,7 +136,7 @@ This is a website for anyone who is looking for new entertainment ideas while st
 - A page where people can leave their positive experiences during the pandemic or just share positive content wth others
 - Adding a way for people to 'like' (provide someone with positive feedback) the content that has been shared by others
 
-
+<a name="technologies"></a>
 ## Technologies Used
 
 ### Languages Used
@@ -157,7 +164,7 @@ This is a website for anyone who is looking for new entertainment ideas while st
     - [Icons 4 Design](http://emsoftware.com/xdplugins/icons-4-design/) - Icons 4 Design was used to add some icons accross the page such as the alert sign on the 'Informed' page.
 - [TinyJPG](https://tinyjpg.com/) - TinyJPG was used to lower the resolution of the images.
 
-
+<a name="#testing"></a>
 ## Testing
 
 
@@ -314,6 +321,7 @@ This is a website for anyone who is looking for new entertainment ideas while st
     - ### External Links
         - All external links have been tested.
 
+<a name="deployment"></a>
 ## Deployment
 
 ### Publishing
@@ -344,10 +352,12 @@ If you wish to clone or download this repository to your local device you can fo
 6. Type 'Git Clone' and paste the URL you copied from the GitHub.
 7. To create your local clone press `Enter`
 
+<a name="bugs"></a>
 ## Known Bugs
 
 There are no identified bugs as at now.
 
+<a name="credits"></a>
 ## Credits
 
 ### Content
@@ -368,5 +378,7 @@ There are no identified bugs as at now.
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+
 
 
