@@ -1,9 +1,11 @@
 
-<h1 align="center">A Guide to Fun Activities</h1>
+<h1 align="center">Fun Activity Guide</h1>
 
-Go to the live website
-GitHub Repo
+ <a href="https://liigalized.github.io/MS1_boredom_guide/informed.html" target="_blank"><img src="./assets/images/favicon.png" width="25px" /></a> :point_left: Live website
 
+  <a href="https://github.com/liigalized/MS1_boredom_guide" target="_blank"><img src="./assets/images/githublogo.png" width="25px" /></a> :point_left: GitHub Repository
+ 
+ 
 This website is meant to promote staying at home and being entertained while doing so, hence the slogan 'Stay...'
 
 This website was created to bring fun and joy to anyone who has found themselves in a 'quarantine' type of situation. This website is a guide of dfferent types and ways of entertainment to keep ourselves busy while the world is going through crisis. It has something for everyone, whether it's cute, funny, active or educating entertainment they're after, this page has it all.
@@ -341,17 +343,10 @@ If you wish to clone or download this repository to your local device you can fo
 5. Open your Terminal and go to a directory where you want the cloned directory to be copied in.
 6. Type 'Git Clone' and paste the URL you copied from the GitHub.
 7. To create your local clone press `Enter`
-Press Enter to create your local clone.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## Known Bugs
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+There are no identified bugs as at now.
 
 ## Credits
 
@@ -362,6 +357,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 - [Testing](https://www.softwaretestinghelp.com/web-application-testing/)
 - All articles
 - All podcasts etc
+- README file
+    - Code Institute [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+    - Code Institute [README Template](https://github.com/Code-Institute-Solutions/readme-template)
+    - 
 ### Media
 - The photos used in this site were obtained from ...
 - CI README example file
@@ -369,4 +368,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
 
