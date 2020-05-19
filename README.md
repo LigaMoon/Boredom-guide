@@ -291,7 +291,25 @@ This is a website for anyone who is looking for new entertainment ideas while st
 
 8. ## Specific Features Manually tested
     - ### Navigation bar
-
+        - When the brand name 'Stay' is clicked, it brings the user to the Home Page. This has been tested on both desktop and mobile and from all pages.
+        - All links are working and have been tested.
+        - The hamburger menu appears on screen sizes smaller than 768px. When clicked/tapped, it expands to reveal page links. These have been tested and are working as expected.
+        - The navigation bar stays at the top of the page on all screen sizes.
+    - ### Footer
+        - Footer is always located at the bottom of the page regardless of the content amount. This was tested by removing all content from any given page.
+        - Then the social links are clicked, they open the relevant social media page in a new tab.
+        - When 'About' link is clicked, it opens a modal that layers on top of the current page and can be closed by clicking on the 'x' or anywhere outside of the modal.
+        - When 'Contact' link is clicked, it opens a modal of a form element.
+            - Name is required and has to be at least two characters long.
+            - Email field is required and has to be in the correct format.
+            - Text field has to contain at least two characters.
+            - When 'Submit' is clicked (given all fields have been filled out) the page ther user was on is refreshed.
+    - ### The Image carousel
+        - Images change automatically with 5 second intervals.
+        - When the left/right arrow keys are clicked on, the image changes correctly and smoothly.
+        - Image also can be changed by clicking one of the circles at the bottom of the image.
+    - ### External Links
+        - All external links have been tested.
 
 ## Deployment
 
