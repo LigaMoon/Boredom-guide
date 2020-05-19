@@ -33,47 +33,58 @@ This website was created to bring fun and joy to anyone who has found themselves
 <a name="UX"></a>
 ## User Experience (UX)
 
-- ### User Stories
-    - #### As a visitor for who staying at home for a longer period is a new thing (such as people not working at the moment and are in quarantine).
-        1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
-        2. I want to intuitively navigate through the site to browse the content.
-        3. I want to enjoy the design and for it to add to the overall feel of entertainment.
-        4. I want to access external links and be able to learn more about each activity mentioned.
-        5. I want to find a variety of entertainment sources to match up with my interests.
-        6. I want to be able to click and interact with the page rather than scroll to build on the feeling of fun.
-    - #### A visitor who is looking for new types of entertainment, such as someone who has been in quarantine for a while and has exhausted all sources of entertainment known to her/him.
-        1. I want to explore unique ideas of entertainment to find more ways to pass time.
-        2. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time.
-        3. I want to be able to scan through the content quickly and find concise information before I commit to any specific topic.
-    - #### As a visitor who has already visited this website and is using it as a reference.
-        1. I want to be able to use the website on any device so I can keep it handy.
-        2. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
-        3. I want to provide my feedback so that the site can be improved and has all my favorites.
-    - #### As a visitor looking to stay entertained and active at home.
-        1. I want to find a variety of different physical activities.
-        2. I want to be able to access the activities mentioned without having to look for them myself.
-        3. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is.
+### User Stories
+- #### As a visitor for who staying at home for a longer period is a new thing (such as people not working at the moment and are in quarantine).
+    1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
+    1. I want to intuitively navigate through the site to browse the content.
+    1. I want to enjoy the design and for it to add to the overall feel of entertainment.
+    1. I want to access external links and be able to learn more about each activity mentioned.
+    1. I want to find a variety of entertainment sources to match up with my interests.
+    1. I want to be able to click and interact with the page rather than scroll to build on the feeling of fun.
+- #### A visitor who is looking for new types of entertainment, such as someone who has been in quarantine for a while and has exhausted all sources of entertainment known to her/him.
+    1. I want to explore unique ideas of entertainment to find more ways to pass time.
+    1. I want to feel like the creator understands what they are talking about and their suggestions are worthy of my time.
+    1. I want to be able to scan through the content quickly and find concise information before I commit to any specific topic.
+- #### As a visitor who has already visited this website and is using it as a reference.
+    1. I want to be able to use the website on any device so I can keep it handy.
+    1. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
+    1. I want to provide my feedback so that the site can be improved and has all my favorites.
+- #### As a visitor looking to stay entertained and active at home.
+    1. I want to find a variety of different physical activities.
+    1. I want to be able to access the activities mentioned without having to look for them myself.
+    1. I want to find activities that are various difficulty levels to be able to use them no matter how I feel or what my fitness level is.
 
+
+### Design
+
+
+- #### Colour scheme
+    - As the main goal of this website is to provide entertainment ideas, the colors used had to tie in with that mentality.  
+    The page is quite colorful to grab attention and invoke the sense of fun while keeping most colors quite low in saturation 
+    (more muted rather than punchy, bright colors). The main color trio was picked using a split [complimentary approach](http://www.paletton.com/wiki/index.php?title=Split_complementary_color_scheme) of the color theory and manually customising it to fit the needs of the website. The colors chosen are 
+    space cadet (#2B3156), middle blue green (#A7EBDC), and Fuzzy Wuzzy (muted orangey red) (#C76D6D). 
+    Where suitable, monochromatic, complementary colors were used, however, some pages required brighter color accents, in which case, secondary colors used were Corn (#F2E871) and Dark Orchid (#A034B9).
+
+        <img src="./assets/images/readme-images/color-scheme.png" height="40px" />
+
+- #### Typography
+    - The main font used is a sans-serif type of font 'Exo' with sans-serif as a fallback font. This font is easy to read as it's not decorated and is quite wide to provide an easy-going feeling opposed to some serif fonts.
+
+        <img src="./assets/images/readme-images/exo.png" height="20px" />
+
+    - The secondary font used for titles is 'PT Serif' with serif as a fallback, which creates a feeling of importance and legitimacy.
+
+
+        <img src="./assets/images/readme-images/pt-serif.png" height="20px" />
+
+    - The font used for accents is 'neon-stream' with sans-serif as a fallback. I chose this font to go with the muted-retro colors and create a retro arcade feel to the page.
+
+
+        <img src="./assets/images/readme-images/neon.png" height="20px" />
         
-- ### Design
-    - #### Colour scheme
-        - As the main goal of this website is to provide entertainment ideas, the colors used had to tie in with that mentallity.  
-        The page is quite colorful to grab attention and invoke the sense of fun while keeping most colors quite low in saturation 
-        (more muted rather than punchy, bright colors). The main color trio was picked using the color theory and those colors are a 
-        navy blue (#2B3156), mint green (#A7EBDC) and muted warm red (#C76D6D). 
-        Where suitable, monochromatic, complimentary colors were used, however, some pages required brighter color accents, in which case, secondary colors used were yellow (#F2E871) and fuscia (#A034B9FC).
 
-    - #### Typography
-        - Main font used is a sans-sarif type of font 'Exo' with sans-serif as a fallback font. This font is easy to read as it's not decorated and is quite wide to give off an easy-going feeling opposed to some serif fonts.
-        - The secondary font used for titles is 'PT Serif' with serfi as a fallback, which creates a feeling of importance and legitimacy.
-        - The font used for accents is 'neon-stream' with sans-serif as a fallback. I chose this font to go with the muted-retro colors and create retro neon arcade kind of a setting.
-    
-    - #### Imagery
-        -(Images on this website serve two purposes. The first is to emphasise and illustrate a certain activity. And the second is to create a fun environment
-        for a visitor to enjoy) have an important part to play in how we consume information and how we understand 
-        it so naturally it's an important part in my website. I used a combination of graphics and 
-        pictures to emphasize the meaning and type of activity described. The pictures were created 
-        with a single color overlay to tie in with the color scheme and not look too distracting.
+- #### Imagery
+    -(Images on this website serve two purposes. The first is to emphasize and illustrate a certain activity. And the second is to create a fun environment for a visitor to enjoy) have an important part to play in how we consume information and how we understand it so naturally, it's an important part in my website. I used a combination of graphics and pictures to emphasize the meaning and type of activity described. The pictures were created with a single color overlay to tie in with the color scheme and not look too distracting.
 
  <a name="features"></a>
 ## Features
