@@ -328,7 +328,7 @@ This website was published using [GitHub Pages](https://pages.github.com/). The 
 If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
 1. Go to the GitHub website and login.
 2. Lcate the [Repository](https://github.com/liigalized/MS1_boredom_guide) used for this project.
-3. On the right hand side of the Repository's name you'll the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
+3. On the right hand side of the Repository name you'll the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
 4. This will create a copy in your personal repository.
 5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
 
@@ -336,6 +336,12 @@ If you wish to contribute to this website you can Fork it without affecting the 
 If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
 1. Go to the GitHub website and login.
 2. Locate the [Repository](https://github.com/liigalized/MS1_boredom_guide) used for this project.
+3. Under the Repository name locate 'Clone or Download' button in green.
+4. To clone the repository using HTTPS click the link under "Clone with HTTPS".
+5. Open your Terminal and go to a directory where you want the cloned directory to be copied in.
+6. Type 'Git Clone' and paste the URL you copied from the GitHub.
+7. To create your local clone press `Enter`
+Press Enter to create your local clone.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
