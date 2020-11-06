@@ -2,9 +2,9 @@
 <h1 align="center">Fun Activity Guide</h1>
 <h1 align="center"><img src="./assets/images/readme-images/responsive-home-page.png" /></h1>
 
- <a href="https://liigalized.github.io/MS1_boredom_guide/informed.html"><img src="./assets/images/favicon.png" width="25px" /></a> :point_left: Live website
+ <a href="https://ligamoon.github.io/Boredom-guide/"><img src="./assets/images/favicon.png" width="25px" /></a> :point_left: Live website
 
-  <a href="https://github.com/liigalized/MS1_boredom_guide"><img src="./assets/images/readme-images/githublogo.png" width="25px" /></a> :point_left: GitHub Repository
+  <a href="https://github.com/LigaMoon/Boredom-guide"><img src="./assets/images/readme-images/githublogo.png" width="25px" /></a> :point_left: GitHub Repository
  
  ## About
 
